@@ -1,0 +1,247 @@
+[
+  {
+    "name": "configs/",
+    "size": 0,
+    "zip_time": "(2026, 10, 8, 18, 10, 32)"
+  },
+  {
+    "name": "addition/",
+    "size": 0,
+    "zip_time": "(2026, 10, 8, 18, 10, 32)"
+  },
+  {
+    "name": "save_old/",
+    "size": 0,
+    "zip_time": "(2026, 10, 8, 18, 10, 32)"
+  },
+  {
+    "name": "console/",
+    "size": 0,
+    "zip_time": "(2026, 10, 8, 18, 11, 18)"
+  },
+  {
+    "name": "meta/",
+    "size": 0,
+    "zip_time": "(2026, 10, 8, 18, 11, 18)"
+  },
+  {
+    "name": "debug-log/",
+    "size": 0,
+    "zip_time": "(2026, 10, 8, 18, 11, 18)"
+  },
+  {
+    "name": "save/",
+    "size": 0,
+    "zip_time": "(2026, 10, 8, 18, 11, 18)"
+  },
+  {
+    "name": "coop-console/",
+    "size": 0,
+    "zip_time": "(2026, 10, 8, 20, 2, 18)"
+  },
+  {
+    "name": "save_old/map_t.bin",
+    "size": 566,
+    "zip_time": "(2026, 10, 13, 22, 27, 4)"
+  },
+  {
+    "name": "save_old/map_ver.bin",
+    "size": 330,
+    "zip_time": "(2026, 10, 13, 22, 27, 4)"
+  },
+  {
+    "name": "save_old/map.bin",
+    "size": 12,
+    "zip_time": "(2026, 10, 13, 22, 27, 4)"
+  },
+  {
+    "name": "save_old/map_sand.bin",
+    "size": 12439,
+    "zip_time": "(2026, 10, 13, 22, 27, 4)"
+  },
+  {
+    "name": "save_old/reanimated.bin",
+    "size": 8,
+    "zip_time": "(2026, 10, 13, 22, 27, 4)"
+  },
+  {
+    "name": "save_old/z_outfits.bin",
+    "size": 4010,
+    "zip_time": "(2026, 10, 13, 22, 27, 4)"
+  },
+  {
+    "name": "save_old/map_meta.bin",
+    "size": 3157308,
+    "zip_time": "(2026, 10, 13, 22, 27, 4)"
+  },
+  {
+    "name": "save_old/map_zone.bin",
+    "size": 320799,
+    "zip_time": "(2026, 10, 13, 22, 27, 4)"
+  },
+  {
+    "name": "save_old/thumb.png",
+    "size": 163486,
+    "zip_time": "(2026, 10, 13, 22, 27, 4)"
+  },
+  {
+    "name": "save_old/players.db",
+    "size": 24576,
+    "zip_time": "(2026, 10, 13, 22, 27, 4)"
+  },
+  {
+    "name": "save_old/players.db-journal",
+    "size": 0,
+    "zip_time": "(2026, 10, 13, 22, 27, 4)"
+  },
+  {
+    "name": "save_old/vehicles.db",
+    "size": 45056,
+    "zip_time": "(2026, 10, 13, 22, 27, 4)"
+  },
+  {
+    "name": "save_old/vehicles.db-journal",
+    "size": 0,
+    "zip_time": "(2026, 10, 13, 22, 27, 4)"
+  },
+  {
+    "name": "save_old/description.txt",
+    "size": 44,
+    "zip_time": "(2026, 10, 13, 22, 27, 4)"
+  },
+  {
+    "name": "console/log_5.txt",
+    "size": 636306,
+    "zip_time": "(2026, 10, 14, 0, 46, 26)"
+  },
+  {
+    "name": "console/log_4.txt",
+    "size": 639955,
+    "zip_time": "(2026, 10, 14, 0, 46, 26)"
+  },
+  {
+    "name": "console/log_3.txt",
+    "size": 640086,
+    "zip_time": "(2026, 10, 14, 0, 46, 26)"
+  },
+  {
+    "name": "console/log_2.txt",
+    "size": 636054,
+    "zip_time": "(2026, 10, 14, 0, 46, 26)"
+  },
+  {
+    "name": "console/log_1.txt",
+    "size": 1647014,
+    "zip_time": "(2026, 10, 14, 0, 46, 26)"
+  },
+  {
+    "name": "meta/console.txt.md5",
+    "size": 10,
+    "zip_time": "(2026, 10, 14, 0, 46, 28)"
+  },
+  {
+    "name": "coop-console/log_5.txt",
+    "size": 377886,
+    "zip_time": "(2026, 10, 14, 0, 46, 28)"
+  },
+  {
+    "name": "coop-console/log_4.txt",
+    "size": 191106,
+    "zip_time": "(2026, 10, 14, 0, 46, 28)"
+  },
+  {
+    "name": "coop-console/log_3.txt",
+    "size": 108243,
+    "zip_time": "(2026, 10, 14, 0, 46, 28)"
+  },
+  {
+    "name": "coop-console/log_2.txt",
+    "size": 252998,
+    "zip_time": "(2026, 10, 14, 0, 46, 28)"
+  },
+  {
+    "name": "coop-console/log_1.txt",
+    "size": 3536932,
+    "zip_time": "(2026, 10, 14, 0, 46, 28)"
+  },
+  {
+    "name": "meta/coop-console.txt.md5",
+    "size": 10,
+    "zip_time": "(2026, 10, 14, 0, 46, 28)"
+  },
+  {
+    "name": "debug-log/log_5.txt",
+    "size": 790695,
+    "zip_time": "(2026, 10, 14, 0, 46, 28)"
+  },
+  {
+    "name": "debug-log/log_4.txt",
+    "size": 795144,
+    "zip_time": "(2026, 10, 14, 0, 46, 28)"
+  },
+  {
+    "name": "debug-log/log_3.txt",
+    "size": 795325,
+    "zip_time": "(2026, 10, 14, 0, 46, 28)"
+  },
+  {
+    "name": "debug-log/log_2.txt",
+    "size": 790393,
+    "zip_time": "(2026, 10, 14, 0, 46, 28)"
+  },
+  {
+    "name": "debug-log/log_1.txt",
+    "size": 3159249,
+    "zip_time": "(2026, 10, 14, 0, 46, 28)"
+  },
+  {
+    "name": "meta/DebugLog.txt.md5",
+    "size": 10,
+    "zip_time": "(2026, 10, 14, 0, 46, 28)"
+  },
+  {
+    "name": "configs/options.ini",
+    "size": 3666,
+    "zip_time": "(2026, 10, 14, 0, 46, 28)"
+  },
+  {
+    "name": "configs/latestSave.ini",
+    "size": 30,
+    "zip_time": "(2026, 10, 14, 0, 46, 28)"
+  },
+  {
+    "name": "addition/mods.txt",
+    "size": 2071,
+    "zip_time": "(2026, 10, 14, 0, 46, 28)"
+  },
+  {
+    "name": "statistic/",
+    "size": 0,
+    "zip_time": "(2026, 10, 14, 0, 46, 28)"
+  },
+  {
+    "name": "save/map_t.bin",
+    "size": 470,
+    "zip_time": "(2026, 10, 14, 0, 46, 28)"
+  },
+  {
+    "name": "save/serverid.dat",
+    "size": 4,
+    "zip_time": "(2026, 10, 14, 0, 46, 28)"
+  },
+  {
+    "name": "save/thumb.png",
+    "size": 105160,
+    "zip_time": "(2026, 10, 14, 0, 46, 28)"
+  },
+  {
+    "name": "save/vehicles.db",
+    "size": 16384,
+    "zip_time": "(2026, 10, 14, 0, 46, 28)"
+  },
+  {
+    "name": "save/description.txt",
+    "size": 46,
+    "zip_time": "(2026, 10, 14, 0, 46, 28)"
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "Workshop": "3809306528",
+    "Jar": "Viewpoint.jar",
+    "Path": "E:\\SteamLibrary\\steamapps\\workshop\\content\\108600\\3809306528\\mods\\Viewpoint\\42\\media\\java\\client\\Viewpoint.jar",
+    "SHA256": "AFA5829D16B3785B0E62673376DA6D2FB4C16B0BA3966D9D4A4EA064F584EDC8",
+    "LastWriteTime": "2026-10-11T04:31:58.9155690+03:00"
+  },
+  {
+    "Workshop": "3811256204",
+    "Jar": "ProjectViewpointQOL.jar",
+    "Path": "E:\\SteamLibrary\\steamapps\\workshop\\content\\108600\\3811256204\\mods\\ProjectViewpointQOL\\42\\media\\java\\client\\ProjectViewpointQOL.jar",
+    "SHA256": "685A5324B3113E95AFD35C9A54A8A9F028E35FCCE844708444FD794AB7C8630A",
+    "LastWriteTime": "2026-10-13T18:18:16.3569035+03:00"
+  },
+  {
+    "Workshop": "3814074009",
+    "Jar": "ViewpointPrecision.jar",
+    "Path": "E:\\SteamLibrary\\steamapps\\workshop\\content\\108600\\3814074009\\mods\\ViewpointPrecision\\42\\media\\java\\client\\ViewpointPrecision.jar",
+    "SHA256": "4A6B23C0D898205FC0312F293FD78663301FC59074492F397486C5ACC459B13B",
+    "LastWriteTime": "2026-10-10T02:06:13.8275016+03:00"
+  },
+  {
+    "Workshop": "3812864848",
+    "Jar": "ViewpointTrueBallistics.jar",
+    "Path": "E:\\SteamLibrary\\steamapps\\workshop\\content\\108600\\3812864848\\mods\\ViewpointTrueBallistics\\42\\media\\java\\ViewpointTrueBallistics.jar",
+    "SHA256": "725D776A4FA1B962E23B7EF0C77D2A16221AAD8F5F84CCA4D4421F33B6482D1F",
+    "LastWriteTime": "2026-10-13T18:18:15.3751813+03:00"
+  },
+  {
+    "Workshop": "3619862853",
+    "Jar": "ZombieBuddy.jar",
+    "Path": "E:\\SteamLibrary\\steamapps\\workshop\\content\\108600\\3619862853\\mods\\ZombieBuddy\\libs\\ZombieBuddy.jar",
+    "SHA256": "EB79B9876332010733A8E0D7CE4FE0377846059A9E28859029E2A0FB449F6CF2",
+    "LastWriteTime": "2026-10-10T02:03:59.8057421+03:00"
+  },
+  {
+    "Workshop": "3809306528",
+    "Jar": "Viewpoint.jar",
+    "Path": "E:\\SteamLibrary\\steamapps\\common\\ProjectZomboid\\steamapps\\workshop\\content\\108600\\3809306528\\mods\\Viewpoint\\42\\media\\java\\client\\Viewpoint.jar",
+    "SHA256": "AFA5829D16B3785B0E62673376DA6D2FB4C16B0BA3966D9D4A4EA064F584EDC8",
+    "LastWriteTime": "2026-10-11T04:31:58.9155690+03:00"
+  },
+  {
+    "Workshop": "3811256204",
+    "Jar": "ProjectViewpointQOL.jar",
+    "Path": "E:\\SteamLibrary\\steamapps\\common\\ProjectZomboid\\steamapps\\workshop\\content\\108600\\3811256204\\mods\\ProjectViewpointQOL\\42\\media\\java\\client\\ProjectViewpointQOL.jar",
+    "SHA256": "685A5324B3113E95AFD35C9A54A8A9F028E35FCCE844708444FD794AB7C8630A",
+    "LastWriteTime": "2026-10-13T18:18:16.3569035+03:00"
+  },
+  {
+    "Workshop": "3814074009",
+    "Jar": "ViewpointPrecision.jar",
+    "Path": "E:\\SteamLibrary\\steamapps\\common\\ProjectZomboid\\steamapps\\workshop\\content\\108600\\3814074009\\mods\\ViewpointPrecision\\42\\media\\java\\client\\ViewpointPrecision.jar",
+    "SHA256": "4A6B23C0D898205FC0312F293FD78663301FC59074492F397486C5ACC459B13B",
+    "LastWriteTime": "2026-10-10T02:06:13.8275016+03:00"
+  },
+  {
+    "Workshop": "3812864848",
+    "Jar": "ViewpointTrueBallistics.jar",
+    "Path": "E:\\SteamLibrary\\steamapps\\common\\ProjectZomboid\\steamapps\\workshop\\content\\108600\\3812864848\\mods\\ViewpointTrueBallistics\\42\\media\\java\\ViewpointTrueBallistics.jar",
+    "SHA256": "725D776A4FA1B962E23B7EF0C77D2A16221AAD8F5F84CCA4D4421F33B6482D1F",
+    "LastWriteTime": "2026-10-13T18:18:15.3751813+03:00"
+  },
+  {
+    "Workshop": "3619862853",
+    "Jar": "ZombieBuddy.jar",
+    "Path": "E:\\SteamLibrary\\steamapps\\common\\ProjectZomboid\\steamapps\\workshop\\content\\108600\\3619862853\\mods\\ZombieBuddy\\libs\\ZombieBuddy.jar",
+    "SHA256": "EB79B9876332010733A8E0D7CE4FE0377846059A9E28859029E2A0FB449F6CF2",
+    "LastWriteTime": "2026-10-10T02:03:59.8057421+03:00"
+  },
+  {
+    "Workshop": "3809306528",
+    "Jar": "Viewpoint.jar",
+    "Path": "C:\\Users\\<USER>\\Zomboid\\mods\\3809306528_Viewpoint\\42\\media\\java\\client\\Viewpoint.jar",
+    "SHA256": "94FEDDA302AB6C17BA1B38495789E4C9781D52823FB8204214C85402E3CAB41F",
+    "LastWriteTime": "2026-10-10T02:03:59.7353750+03:00"
+  },
+  {
+    "Workshop": "3811256204",
+    "Jar": "ProjectViewpointQOL.jar",
+    "Path": "C:\\Users\\<USER>\\Zomboid\\mods\\3811256204_ProjectViewpointQOL\\42\\media\\java\\client\\ProjectViewpointQOL.jar",
+    "SHA256": "AA6B2499D60837655BFCBE07BE12E53810994342E3C42C3FBAC18AEDA2870BB0",
+    "LastWriteTime": "2026-10-10T02:08:17.4220939+03:00"
+  },
+  {
+    "Workshop": "3814074009",
+    "Jar": "ViewpointPrecision.jar",
+    "Path": "C:\\Users\\<USER>\\Zomboid\\mods\\3814074009_ViewpointPrecision\\42\\media\\java\\client\\ViewpointPrecision.jar",
+    "SHA256": "4A6B23C0D898205FC0312F293FD78663301FC59074492F397486C5ACC459B13B",
+    "LastWriteTime": "2026-10-10T02:06:13.8275016+03:00"
+  },
+  {
+    "Workshop": "3812864848",
+    "Jar": "ViewpointTrueBallistics.jar",
+    "Path": "C:\\Users\\<USER>\\Zomboid\\mods\\3812864848_ViewpointTrueBallistics\\42\\media\\java\\ViewpointTrueBallistics.jar",
+    "SHA256": "BCF6A50BAB9343A2A612C80CFA7E88228EC139BC3BDFB06AF6D3E46C09629958",
+    "LastWriteTime": "2026-10-10T02:07:20.5042566+03:00"
+  },
+  {
+    "Workshop": "3619862853",
+    "Jar": "ZombieBuddy.jar",
+    "Path": "C:\\Users\\<USER>\\Zomboid\\mods\\3619862853_ZombieBuddy\\libs\\ZombieBuddy.jar",
+    "SHA256": "EB79B9876332010733A8E0D7CE4FE0377846059A9E28859029E2A0FB449F6CF2",
+    "LastWriteTime": "2026-10-10T02:03:59.8057421+03:00"
+  }
+]

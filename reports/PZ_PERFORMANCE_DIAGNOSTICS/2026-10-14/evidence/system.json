@@ -1,0 +1,101 @@
+{
+  "CapturedAt": "2026-10-14T07:35:29.0859212+03:00",
+  "CPU": [
+    {
+      "Name": "AMD Ryzen 7 7700 8-Core Processor              ",
+      "NumberOfCores": 8,
+      "NumberOfLogicalProcessors": 16,
+      "MaxClockSpeed": 3801
+    }
+  ],
+  "GPU": [
+    {
+      "Name": "NVIDIA GeForce RTX 5070",
+      "DriverVersion": "32.0.16.1088",
+      "DriverDate": "2026-07-22T03:00:00+03:00",
+      "CurrentHorizontalResolution": 2560,
+      "CurrentVerticalResolution": 1440,
+      "CurrentRefreshRate": 144
+    },
+    {
+      "Name": "AMD Radeon(TM) Graphics",
+      "DriverVersion": "32.0.21030.2001",
+      "DriverDate": "2025-09-25T03:00:00+03:00",
+      "CurrentHorizontalResolution": 1920,
+      "CurrentVerticalResolution": 1080,
+      "CurrentRefreshRate": 99
+    }
+  ],
+  "OS": {
+    "Caption": "Майкрософт Windows 11 Pro",
+    "Version": "10.0.26300",
+    "BuildNumber": "26300",
+    "TotalVisibleMemorySize": 32628640,
+    "FreePhysicalMemory": 22685088,
+    "TotalVirtualMemorySize": 53600160,
+    "FreeVirtualMemory": 42857628
+  },
+  "Pagefile": [
+    {
+      "Name": "E:\\pagefile.sys",
+      "AllocatedBaseSize": 20480,
+      "CurrentUsage": 0,
+      "PeakUsage": 0
+    }
+  ],
+  "AutomaticManagedPagefile": false,
+  "Disks": [
+    {
+      "FriendlyName": "KINGSTON SNV2S1000G",
+      "MediaType": "SSD",
+      "BusType": "NVMe",
+      "Size": 1000204886016
+    },
+    {
+      "FriendlyName": "ADATA SX6000PNP",
+      "MediaType": "SSD",
+      "BusType": "NVMe",
+      "Size": 256060514304
+    },
+    {
+      "FriendlyName": "ADATA HV620S",
+      "MediaType": "Unspecified",
+      "BusType": "USB",
+      "Size": 2000398934016
+    },
+    {
+      "FriendlyName": "TOSHIBA HDWD110",
+      "MediaType": "HDD",
+      "BusType": "SATA",
+      "Size": 1000204886016
+    }
+  ],
+  "GameDisk": {
+    "FriendlyName": "KINGSTON SNV2S1000G",
+    "BusType": "NVMe"
+  },
+  "FreeSpace": [
+    {
+      "Name": "C",
+      "Used": 139356266496,
+      "Free": 113746907136
+    },
+    {
+      "Name": "E",
+      "Used": 818775638016,
+      "Free": 181427449856
+    }
+  ],
+  "PowerPlan": "GUID схемы питания: 381b4222-f694-41f0-9685-ff5bb260df2e  (Сбалансированная)",
+  "Adapters": [
+    {
+      "Name": "Ethernet",
+      "InterfaceDescription": "Realtek Gaming 2.5GbE Family Controller",
+      "LinkSpeed": "1 Gbps",
+      "MediaType": "802.3"
+    }
+  ],
+  "Nvidia": "NVIDIA GeForce RTX 5070, 610.88, 12227 MiB, 821 MiB, 1 %, 1 %, 23.09 W",
+  "GameProcesses": [],
+  "CrashEvents": []
+}

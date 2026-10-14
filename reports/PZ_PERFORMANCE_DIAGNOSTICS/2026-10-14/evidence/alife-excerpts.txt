@@ -1,0 +1,121 @@
+PATTERN [ALIFE-PERF] tick=: 20 lines
+29338: [13-10-26 22:46:33.238] LOG  : Lua          f:9681 st:16 140 130> [ALIFE-PERF] tick=102ms slowest=encounter_director:101ms.
+
+31601: [14-10-26 00:16:31.221] LOG  : Lua          f:63640 st:21 538 113> [ALIFE-PERF] tick=174ms slowest=population:174ms.
+
+31609: [14-10-26 00:16:55.815] LOG  : Lua          f:63886 st:21 562 708> [ALIFE-PERF] tick=166ms slowest=population:166ms.
+
+31622: [14-10-26 00:17:28.097] LOG  : Lua          f:64209 st:21 594 988> [ALIFE-PERF] tick=146ms slowest=population:146ms.
+
+31642: [14-10-26 00:18:28.395] LOG  : Lua          f:64812 st:21 655 287> [ALIFE-PERF] tick=147ms slowest=population:146ms.
+
+31665: [14-10-26 00:19:19.613] LOG  : Lua          f:65324 st:21 706 504> [ALIFE-PERF] tick=164ms slowest=population:163ms.
+
+31708: [14-10-26 00:21:23.418] LOG  : Lua          f:66562 st:21 830 310> [ALIFE-PERF] tick=171ms slowest=population:170ms.
+
+31738: [14-10-26 00:22:37.610] LOG  : Lua          f:67304 st:21 904 501> [ALIFE-PERF] tick=161ms slowest=population:161ms.
+
+31756: [14-10-26 00:23:38.211] LOG  : Lua          f:67910 st:21 965 102> [ALIFE-PERF] tick=166ms slowest=population:165ms.
+
+31803: [14-10-26 00:25:47.602] LOG  : Lua          f:69204 st:22 094 494> [ALIFE-PERF] tick=154ms slowest=population:153ms.
+
+31820: [14-10-26 00:26:48.008] LOG  : Lua          f:69808 st:22 154 900> [ALIFE-PERF] tick=159ms slowest=population:158ms.
+
+31902: [14-10-26 00:30:01.877] LOG  : Lua          f:71747 st:22 348 769> [ALIFE-PERF] tick=130ms slowest=population:129ms.
+
+31977: [14-10-26 00:33:39.998] LOG  : Lua          f:73928 st:22 566 890> [ALIFE-PERF] tick=151ms slowest=population:151ms.
+
+31986: [14-10-26 00:34:04.297] LOG  : Lua          f:74171 st:22 591 189> [ALIFE-PERF] tick=147ms slowest=population:146ms.
+
+31998: [14-10-26 00:34:36.495] LOG  : Lua          f:74493 st:22 623 387> [ALIFE-PERF] tick=147ms slowest=population:147ms.
+
+32018: [14-10-26 00:35:36.899] LOG  : Lua          f:75097 st:22 683 791> [ALIFE-PERF] tick=151ms slowest=population:150ms.
+
+32038: [14-10-26 00:36:38.096] LOG  : Lua          f:75709 st:22 744 988> [ALIFE-PERF] tick=148ms slowest=population:148ms.
+
+32059: [14-10-26 00:37:38.292] LOG  : Lua          f:76311 st:22 805 183> [ALIFE-PERF] tick=146ms slowest=population:146ms.
+
+32184: [14-10-26 00:39:37.125] LOG  : Lua          f:77497 st:22 924 017> [ALIFE-PERF] tick=157ms slowest=population:156ms.
+
+32307: [14-10-26 00:42:37.743] LOG  : Lua          f:79303 st:23 104 634> [ALIFE-PERF] tick=176ms slowest=population:176ms.
+
+PATTERN [ALIFE-PERF] 60s: 40 lines
+28957: [13-10-26 22:31:23.405] LOG  : Lua          f:588 st:15 230 296> [ALIFE-PERF] 60s hitches=1 hook_edge=1/0/0/0/29ms.
+
+29116: [13-10-26 22:37:23.736] LOG  : Lua          f:4187 st:15 590 627> [ALIFE-PERF] 60s hitches=1 total=1/0/0/0/24ms encounter_director=1/0/0/0/24ms.
+
+29187: [13-10-26 22:42:24.336] LOG  : Lua          f:7193 st:15 891 227> [ALIFE-PERF] 60s hitches=1 total=1/0/0/0/17ms encounter_director=1/0/0/0/17ms.
+
+29301: [13-10-26 22:45:24.338] LOG  : Lua          f:8993 st:16 071 229> [ALIFE-PERF] 60s hitches=1 total=1/0/0/0/33ms population=1/0/0/0/32ms.
+
+29365: [13-10-26 22:47:24.634] LOG  : Lua          f:10196 st:16 191 526> [ALIFE-PERF] 60s hitches=1 total=1/1/1/1/102ms encounter_director=1/1/1/1/101ms overruns=1(encounter_director:1).
+
+29624: [13-10-26 22:52:24.930] LOG  : Lua          f:13189 st:16 491 822> [ALIFE-PERF] 60s hitches=1 total=1/0/0/0/21ms encounter_director=1/0/0/0/20ms.
+
+29681: [13-10-26 22:54:25.129] LOG  : Lua          f:14391 st:16 612 020> [ALIFE-PERF] 60s hitches=1 total=1/1/1/0/85ms presentation_sync=1/1/1/0/84ms.
+
+29736: [13-10-26 22:57:25.328] LOG  : Lua          f:16193 st:16 792 220> [ALIFE-PERF] 60s hitches=1 total=1/0/0/0/29ms encounter_director=1/0/0/0/28ms.
+
+29808: [13-10-26 23:00:25.535] LOG  : Lua          f:17993 st:16 972 427> [ALIFE-PERF] 60s hitches=1 total=1/1/1/0/51ms population=1/1/0/0/50ms.
+
+29836: [13-10-26 23:02:25.833] LOG  : Lua          f:19196 st:17 092 725> [ALIFE-PERF] 60s hitches=1 total=1/0/0/0/17ms encounter_director=1/0/0/0/17ms.
+
+30316: [13-10-26 23:22:27.436] LOG  : Lua          f:31212 st:18 294 327> [ALIFE-PERF] 60s hitches=0 total=1/0/0/0/17ms.
+
+30517: [13-10-26 23:32:28.135] LOG  : Lua          f:37219 st:18 895 026> [ALIFE-PERF] 60s hitches=1 total=1/0/0/0/26ms encounter_director=1/0/0/0/24ms.
+
+30595: [13-10-26 23:37:28.535] LOG  : Lua          f:40223 st:19 195 427> [ALIFE-PERF] 60s hitches=1 total=1/0/0/0/23ms encounter_director=1/0/0/0/23ms.
+
+30930: [13-10-26 23:47:28.939] LOG  : Lua          f:46227 st:19 795 831> [ALIFE-PERF] 60s hitches=1 total=1/0/0/0/20ms encounter_director=1/0/0/0/20ms.
+
+31201: [13-10-26 23:52:29.327] LOG  : Lua          f:49225 st:20 096 219> [ALIFE-PERF] 60s hitches=1 total=1/0/0/0/23ms encounter_director=1/0/0/0/23ms.
+
+31273: [13-10-26 23:57:29.546] LOG  : Lua          f:52225 st:20 396 437> [ALIFE-PERF] 60s hitches=1 total=1/0/0/0/20ms encounter_director=1/0/0/0/20ms.
+
+31489: [14-10-26 00:10:30.449] LOG  : Lua          f:60034 st:21 177 340> [ALIFE-PERF] 60s hitches=5 total=5/3/3/0/75ms population=5/3/3/0/74ms.
+
+31505: [14-10-26 00:11:30.449] LOG  : Lua          f:60634 st:21 237 341> [ALIFE-PERF] 60s hitches=1 total=1/1/1/0/72ms population=1/1/1/0/70ms.
+
+31524: [14-10-26 00:12:30.545] LOG  : Lua          f:61235 st:21 297 437> [ALIFE-PERF] 60s hitches=1 total=2/0/0/0/27ms encounter_director=1/0/0/0/27ms.
+
+31583: [14-10-26 00:15:30.748] LOG  : Lua          f:63037 st:21 477 640> [ALIFE-PERF] 60s hitches=1 total=1/0/0/0/29ms population=1/0/0/0/28ms.
+
+31600: [14-10-26 00:16:30.849] LOG  : Lua          f:63638 st:21 537 740> [ALIFE-PERF] 60s hitches=2 total=2/0/0/0/27ms population=2/0/0/0/25ms.
+
+31624: [14-10-26 00:17:30.950] LOG  : Lua          f:64239 st:21 597 841> [ALIFE-PERF] 60s hitches=5 total=5/5/5/4/174ms population=4/4/4/4/174ms encounter_director=1/1/1/0/86ms overruns=4(population:4).
+
+31644: [14-10-26 00:18:31.047] LOG  : Lua          f:64840 st:21 657 938> [ALIFE-PERF] 60s hitches=2 total=2/1/1/1/147ms population=2/1/1/1/146ms overruns=1(population:1).
+
+31668: [14-10-26 00:19:31.149] LOG  : Lua          f:65441 st:21 718 040> [ALIFE-PERF] 60s hitches=5 total=5/3/3/3/164ms population=5/3/3/3/163ms overruns=3(population:3).
+
+31691: [14-10-26 00:20:31.262] LOG  : Lua          f:66042 st:21 778 154> [ALIFE-PERF] 60s hitches=1 total=1/1/1/0/93ms population=1/1/1/0/92ms.
+
+31710: [14-10-26 00:21:31.349] LOG  : Lua          f:66643 st:21 838 241> [ALIFE-PERF] 60s hitches=1 total=1/1/1/1/171ms population=1/1/1/1/170ms overruns=1(population:1).
+
+31752: [14-10-26 00:23:31.547] LOG  : Lua          f:67845 st:21 958 438> [ALIFE-PERF] 60s hitches=2 total=2/1/1/1/161ms population=1/1/1/1/161ms director=1/0/0/0/19ms overruns=1(population:1).
+
+31782: [14-10-26 00:24:31.551] LOG  : Lua          f:68445 st:22 018 442> [ALIFE-PERF] 60s hitches=3 total=3/2/2/1/166ms population=3/2/2/1/165ms overruns=1(population:1).
+
+31814: [14-10-26 00:26:31.649] LOG  : Lua          f:69646 st:22 138 540> [ALIFE-PERF] 60s hitches=1 total=1/1/1/1/154ms population=1/1/1/1/153ms overruns=1(population:1).
+
+31843: [14-10-26 00:27:31.748] LOG  : Lua          f:70247 st:22 198 640> [ALIFE-PERF] 60s hitches=1 total=1/1/1/1/159ms population=1/1/1/1/158ms overruns=1(population:1).
+
+31883: [14-10-26 00:29:31.851] LOG  : Lua          f:71448 st:22 318 742> [ALIFE-PERF] 60s hitches=1 total=1/0/0/0/21ms population=1/0/0/0/20ms.
+
+31916: [14-10-26 00:30:31.850] LOG  : Lua          f:72048 st:22 378 742> [ALIFE-PERF] 60s hitches=9 total=9/4/2/2/131ms population=9/4/2/2/130ms overruns=2(population:2).
+
+31957: [14-10-26 00:32:32.048] LOG  : Lua          f:73250 st:22 498 940> [ALIFE-PERF] 60s hitches=2 total=3/0/0/0/31ms population=2/0/0/0/30ms.
+
+31994: [14-10-26 00:34:32.149] LOG  : Lua          f:74451 st:22 619 041> [ALIFE-PERF] 60s hitches=5 total=5/3/3/3/159ms population=5/3/3/3/157ms overruns=3(population:3).
+
+32014: [14-10-26 00:35:32.149] LOG  : Lua          f:75051 st:22 679 041> [ALIFE-PERF] 60s hitches=1 total=1/1/1/1/147ms population=1/1/1/1/147ms overruns=1(population:1).
+
+32030: [14-10-26 00:36:32.150] LOG  : Lua          f:75651 st:22 739 041> [ALIFE-PERF] 60s hitches=1 total=1/1/1/1/151ms population=1/1/1/1/150ms overruns=1(population:1).
+
+32054: [14-10-26 00:37:32.348] LOG  : Lua          f:76253 st:22 799 240> [ALIFE-PERF] 60s hitches=2 total=2/1/1/1/148ms population=1/1/1/1/148ms encounter_director=1/0/0/0/18ms overruns=1(population:1).
+
+32110: [14-10-26 00:38:32.450] LOG  : Lua          f:76854 st:22 859 341> [ALIFE-PERF] 60s hitches=3 total=3/1/1/1/146ms population=3/1/1/1/146ms overruns=1(population:1).
+
+32201: [14-10-26 00:40:32.568] LOG  : Lua          f:78053 st:22 979 460> [ALIFE-PERF] 60s hitches=1 total=1/1/1/1/157ms population=1/1/1/1/156ms overruns=1(population:1).
+
+32462: [14-10-26 00:43:32.769] LOG  : Lua          f:79850 st:23 159 660> [ALIFE-PERF] 60s hitches=3 total=3/2/2/2/176ms population=3/2/2/2/176ms overruns=2(population:2).

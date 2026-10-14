@@ -1,0 +1,1 @@
+Diagnostic collection reads game/mods/config/logs only. No game launches, settings edits, cache deletion, mod updates, save inspection or repair. Original saves from logs.zip are not extracted.

@@ -1,0 +1,204 @@
+PATTERN loaded override zombie.iso.IsoWorld: 1 lines
+87: [13-10-26 22:27:10.076] LOG  : General      f:0 st:14 976 967> Loading steam_api64....
+88: [13-10-26 22:27:10.078] LOG  : General      f:0 st:14 976 970> Loading RakNet64....
+89: [13-10-26 22:27:10.081] LOG  : General      f:0 st:14 976 972> Loading ZNetJNI64....
+90: [13-10-26 22:27:10.100] LOG  : General      f:0 st:14 976 992> SteamUtils initialised successfully.
+91: [13-10-26 22:27:10.102] LOG  : General      f:0 st:14 976 993> [pzopt] loaded override zombie.iso.IsoWorld (target revision 4a0e9546ec, active, logged late).
+92: [13-10-26 22:27:10.102] LOG  : General      f:0 st:14 976 994> [pzopt] loaded override zombie.iso.IsoMetaGrid (target revision 4a0e9546ec, active, logged late).
+93: [13-10-26 22:27:10.102] LOG  : General      f:0 st:14 976 994> [pzopt] loaded override zombie.GameTime (target revision 4a0e9546ec, active, logged late).
+94: [13-10-26 22:27:10.102] LOG  : General      f:0 st:14 976 994> [pzopt] loaded override zombie.iso.worldgen.WorldGenUtils (target revision 4a0e9546ec, active, logged late).
+95: [13-10-26 22:27:10.102] LOG  : General      f:0 st:14 976 994> [pzopt] loaded override zombie.core.opengl.RenderThread (target revision 4a0e9546ec, active, logged late).
+
+PATTERN [pzopt] settings:: 1 lines
+28820: [13-10-26 22:28:32.535] LOG  : General      f:0 st:15 059 426> Pathfind init() start.
+28821: [13-10-26 22:28:32.545] LOG  : General      f:0 st:15 059 436> Pathfind init() end.
+28822: [13-10-26 22:28:32.545] LOG  : General      f:0 st:15 059 437> WorldStreamer.create() start.
+28823: [13-10-26 22:28:32.556] LOG  : General      f:0 st:15 059 447> [pzopt] loaded override zombie.iso.WorldStreamer (target revision 4a0e9546ec, active).
+28824: [13-10-26 22:28:32.560] LOG  : General      f:0 st:15 059 452> [pzopt] settings: parallel=true workers=4 (effective 4, cores 16) wake=true (effective true) chunkGridWidth=0 instrument=false dev=false luaChecksumExempt=true translucentCache=false hotsaveIntervalSec=30 persistentVbo=true persistentVboSlots=4 persistentVboFrameSync=true persistentVboTrustFrames=8 seamSpread=false fliesToggleFix=true bakeMipLevels=3 occlusionRetain=false bakeScheduler=true bakeFrameBudget=8 bakeArrivalQuota=4 seamDirections=false chunkHandoffSlack=false occlusionGrantedOnly=true occlusionCountParallel=true kidsRoomMemo=true lightingNewChunkBudget=1 bakeBudgetAdaptive=true bakeFrameBudgetMin=2 bakeBudgetPct=60/90 bakeFrameBudgetHard=12 bakeSmooth=false/1 bakeDeadlinePct=0 bakeMaxWait=3/8/6/48/120 seamRebakeBudget=2 seamHeavyBakes=6 seamMaxFrames=60 treesInChunkTexture=true windowsInChunkTexture=false translucentTilesInChunkTexture=true glassTilesPerFrame=true floorDecalsPerFrame=true treeBakePass=true curtainDepthNudgePct=5 bakeBudget=8 lightingBudget=8 lightingRebakeMs=250 rebakeBudget=4 rebakeMaxFrames=3 lightingRebakeBudget=8 lightingRebakeMaxFrames=30 zoomRetain=true zoomRebakeBudget=12 zoomFrameMs=10 zoomPlaceholder=true zoomEaseMs=300 zoomEase=0.25,0.1,0.25,1.0 lightingStrongDelta=6 lightingStrongBudget=8 lightingStrongFrameMs=0 lightingGlobalDeltaPct=2 lightingFlush=true lightSwitchCheckFrames=15 cutawayFast=true cutawayRadius=6 gridStackInterval=8 roofHideDebounceFrames=8 weatherMaskIdleSkip=true worldSoundFast=true keyboardFresh=true inputLatch=true inputLatchWaitUs=1500 frameStartGate=false gpuMaxFrames=0 reflexSleep=false reflexBoost=false reflexQueueUs=500 reflexCapFps=0 vsyncAdaptive=false vblankLock=false vblankLockMarginUs=1000 aimHoldMs=150 cursorLatch=false saveCellAsync=true chunkMapFast=true propertySurfaceNoAlloc=true weatherNoGlGet=true glNoSync=false/1024 renderChunkPrewarm=-1 renderChunkTopUp=32 renderChunkTopUpPerFrame=2 lightingVisionParallel=false threadNice= profileHandshake=true luaProfile=false uiProfile=false uiRetained=true uiRetainedChildren=true luaIndexCache=true luaInternConstants=true luaSkipEmpty=true uiLuaFast=true uiTickStagger=true mapStreetMemo=true mapStreetCache=true uiHoverHz=60 uiRetainedMaxMs=1000 uiRetainedCheapUs=10 gcMode=g1 gcPauseMs=0 gcHeap=auto gcHeapFixed=false gcPreTouch=false jitMode=auto jitC1Cores=4 vehicleCull=true playerLosFast=true zombieSpotFast=true playerLosNative=false animBonesParallel=true animBatchAsync=true animatorParallel=true animatorPipeline=true frameSpinUs=0 frameThreads=8 actionEvalParallel=true actionSnapshotFilter=true emitterParamSkip=true emitterIdleSkip=true worldSoundCleanupFast=true hearingHoist=true soundTickHz=60 audioLimiter=true audioLimiterCeilingDb=-2 separateFast=true ragdollGate=true bodyModelCache=true separateParallel=true entityUpdateParallel=true entityUpdateLuaReplay=true animalLosFast=true entityUpdatePipeline=true emitterDefer=true physicsDefer=true actionGroupCache=true profilerThreadMemo=true sleepCheckMemo=true stateParamMemo=true zombieSimLodTiles=0 zombieSimLodSteps=1 zombieCheckSpread=0 lightingReadParallel=true zombieCullSortFast=true skinTransformsPrecompute=true skinPalettePrecompute=true shadowPrep=true boneIndexCache=true ecsLookupFast=true actionConditionFast=true charDrawPrep=true zombieAtlasFast=true charDrawThreads=14 vehicleSmooth=interp driveCameraLate=false driveLookSmooth=true cameraScreenPixels=true frameClockSmooth=false vsyncLock=false physicsStepHz=100 physicsStepMode=fixed fileThreads=8 fileInflight=32 textureBufferMb=50 parallelDepthMaps=true loaderCpuFixes=true loadWorkers=8 scriptParserFast=true fmodAsync=true noLoadFade=true noIntroWait=true noClickToStart=true noLoadingScreen=true centerFirstLoad=true resumeShot=true resumeShotDetail=full bootPump=true earlyModels=true luaPrecompile=true preloadAnimSets=true tileDefPreload=true skipIdChecks=true voronoiFast=true earlyTilePacks=true aotCache=true animClipCache=true packIndex=true itemParamSwitch=true bootFileThreads=10 shaderCache=true shaderWarmup=true tileVertexDepth=true mipmapArrays=true puddleCache=true puddleCacheFrames=60 puddleVbo=true treeAppend=true treeRebakeLazy=true treeRebakeLingerMs=0 puddleEarlyZ=true rainSplashesFast=true rainTiles=true vboBatchKb=1024 vboFastQuads=true fogPass=true fogScalePct=25 fogMaskFrames=20 uniformCache=false windSpriteSway=true compositeShaderRun=false ambientOcclusion=false aoMode=chunk aoScalePct=50 aoRadiusPct=60 aoStrengthFloorPct=100 aoStrengthWallPct=100 aoStrengthObjectPct=100 aoStrengthVegetationPct=100 aoStrengthPlantPct=100 aoPlantLeafOcclusion=false aoThicknessPct=60 sunShadows=false sunShadowStrengthPct=45 skyPath=astro moonShadows=true moonShadowPct=100 cloudShadows=true cloudOpacityPct=85 cloudSpeedPct=100 cloudScalePct=100 godRays=false godRaysMethod=volume godRaysStrengthPct=100 godRaysHazePct=100 godRaysDustPct=100 sunShadowSoftnessPct=25 upscaler=off upscaleNoGlGet=false upscalerQuality=quality upscalerScalePct=0 fsrSharpnessPct=80 dlssSharpen=false upscalerObjectMv=true dynRes=false dynResController=model dynResTargetPct=90 dynResMinPct=50 dynResMaxPct=100 dynResFps=0 dlssPreset=e dlssAutoExposure=false dlssPipeline=false dlssOutputPct=67 dlssOutputFilter=rcas dlssFlushAfterWait=false dlssFlushAfterComposite=false dlssWaitOutputOnly=false dlssDirectColor=true dlssWaterCurrent=true dlssWaterHistoryPct=60.
+28825: [13-10-26 22:28:32.572] LOG  : General      f:0 st:15 059 464> WorldStreamer.create() end.
+28826: [13-10-26 22:28:32.572] LOG  : General      f:0 st:15 059 464> CellLoader.LoadCellBinaryChunk start.
+28827: [13-10-26 22:28:32.583] LOG  : General      f:0 st:15 059 475> CellLoader.LoadCellBinaryChunk start.
+28828: [13-10-26 22:28:32.590] LOG  : General      f:0 st:15 059 481> WorldStreamer.isBusy() loop start.
+
+PATTERN NetTimedAction.perform> Exception: 24 lines
+29488: [13-10-26 22:49:45.535] LOG  : General      f:11602 st:16 332 426> command entered via server console (System.in): "ping@pong".
+29489: [13-10-26 22:49:47.186] LOG  : Lua          f:11619 st:16 334 078> [VVC MP server] snapshot vehicle=235 link=false kind=false.
+29491: [13-10-26 22:49:50.669] LOG  : General      f:11654 st:16 337 560> command entered via server console (System.in): "ping@pong".
+29492: [13-10-26 22:49:50.672] ERROR: Action       f:11654 st:16 337 563> NetTimedAction.perform> Exception thrown
+29493: 	java.lang.NullPointerException: Cannot invoke "java.lang.Boolean.booleanValue()" because the return value of "se.krka.kahlua.integration.LuaCaller.protectedCallBoolean(se.krka.kahlua.vm.KahluaThread, Object, Object)" is null at NetTimedAction.perform(NetTimedAction.java:140). Message: Perform failed
+29494: 	Stack trace:
+29495: 		zombie.core.NetTimedAction.perform(NetTimedAction.java:140)
+29496: 		zombie.core.ActionManager.update(ActionManager.java:70)
+
+29632: [13-10-26 22:52:57.773] LOG  : General      f:13517 st:16 524 664> command entered via server console (System.in): "ping@pong".
+29633: [13-10-26 22:52:58.570] WARN : Multiplayer  f:13525 st:16 525 462 at INetworkPacket.logInconsistentPacket> The packet PlayerHitSquare is not consistent: <PACKET DETAILS REDACTED>
+29634: [13-10-26 22:52:58.765] LOG  : Lua          f:13527 st:16 525 656> [VVC MP server] snapshot vehicle=230 link=false kind=false.
+29635: [13-10-26 22:53:02.906] LOG  : General      f:13568 st:16 529 797> command entered via server console (System.in): "ping@pong".
+29636: [13-10-26 22:53:04.529] ERROR: Action       f:13585 st:16 531 421> NetTimedAction.perform> Exception thrown
+29637: 	java.lang.NullPointerException: Cannot invoke "java.lang.Boolean.booleanValue()" because the return value of "se.krka.kahlua.integration.LuaCaller.protectedCallBoolean(se.krka.kahlua.vm.KahluaThread, Object, Object)" is null at NetTimedAction.perform(NetTimedAction.java:140). Message: Perform failed
+29638: 	Stack trace:
+29639: 		zombie.core.NetTimedAction.perform(NetTimedAction.java:140)
+29640: 		zombie.core.ActionManager.update(ActionManager.java:70)
+
+29890: [13-10-26 23:06:02.202] WARN : Multiplayer  f:21359 st:17 309 093 at INetworkPacket.logInconsistentPacket> The packet PlayerHitSquare is not consistent: <PACKET DETAILS REDACTED>
+29891: [13-10-26 23:06:05.109] LOG  : General      f:21388 st:17 312 000> ItemPickInfo -> cannot get ID for container: inventorymale.
+29892: [13-10-26 23:06:06.476] LOG  : General      f:21402 st:17 313 367> command entered via server console (System.in): "ping@pong".
+29893: [13-10-26 23:06:11.600] LOG  : General      f:21453 st:17 318 491> command entered via server console (System.in): "ping@pong".
+29894: [13-10-26 23:06:12.135] ERROR: Action       f:21459 st:17 319 027> NetTimedAction.perform> Exception thrown
+29895: 	java.lang.NullPointerException: Cannot invoke "java.lang.Boolean.booleanValue()" because the return value of "se.krka.kahlua.integration.LuaCaller.protectedCallBoolean(se.krka.kahlua.vm.KahluaThread, Object, Object)" is null at NetTimedAction.perform(NetTimedAction.java:140). Message: Perform failed
+29896: 	Stack trace:
+29897: 		zombie.core.NetTimedAction.perform(NetTimedAction.java:140)
+29898: 		zombie.core.ActionManager.update(ActionManager.java:70)
+
+PATTERN getMakeUpType: 2 lines
+30455: [13-10-26 23:31:01.481] LOG  : General      f:36352 st:18 808 372> command entered via server console (System.in): "ping@pong".
+30456: [13-10-26 23:31:03.342] LOG  : Lua          f:36371 st:18 810 234> [NeatLockpicking:Server] Vehicle hotwired: 236.
+30457: [13-10-26 23:31:06.606] LOG  : General      f:36403 st:18 813 497> command entered via server console (System.in): "ping@pong".
+30458: [13-10-26 23:31:06.734] ERROR: General      f:36405 st:18 813 626 at KahluaThread.flushErrorMessage      > -------------------------------------------------------------
+30459: attempted index: getMakeUpType of non-table: null.
+30460: [13-10-26 23:31:06.734] ERROR: General      f:36405 st:18 813 626 at KahluaThread.flushErrorMessage      > dumping Lua stack trace
+30461: -----------------------------------------
+30462: STACK TRACE
+30463: -----------------------------------------
+
+30462: STACK TRACE
+30463: -----------------------------------------
+30464: 	Lua(Vanilla).complete(ISApplyMakeUp.lua:28).
+30465: [13-10-26 23:31:06.737] ERROR: General      f:36405 st:18 813 628> Lua(Vanilla).complete> Exception thrown
+30466: 	java.lang.RuntimeException: attempted index: getMakeUpType of non-table: null at KahluaThread.tableget(KahluaThread.java:1430).
+30467: 	Stack trace:
+30468: 		se.krka.kahlua.vm.KahluaThread.tableget(KahluaThread.java:1430)
+30469: 		Lua(Vanilla).complete(ISApplyMakeUp.lua:28)
+30470: 		se.krka.kahlua.vm.KahluaThread.luaMainloop(KahluaThread.java:459)
+
+PATTERN UnsatisfiedLinkError: 2 lines
+31043: STACK TRACE
+31044: -----------------------------------------
+31045: 	Lua((MOD:More Car Features + Spawn Zones Expansion)).GamestaOnSpawnVehicleStartActions(OnSpawnVehicleAdditionalFeatures.lua:789).
+31046: [13-10-26 23:51:10.590] ERROR: General      f:48439 st:20 017 481> Lua((MOD:More Car Features + Spawn Zones Expansion)).GamestaOnSpawnVehicleStartActions> Exception thrown
+31047: 	java.lang.UnsatisfiedLinkError: 'void zombie.core.physics.Bullet.removeVehicle(int)' at Bullet.removeVehicle (Native Method).
+31048: 	Stack trace:
+31049: 		zombie.core.physics.Bullet.removeVehicle(Native Method)
+31050: 		zombie.vehicles.BaseVehicle.scriptReloaded(BaseVehicle.java:1853)
+31051: 		java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+
+31085: STACK TRACE
+31086: -----------------------------------------
+31087: 	Lua((MOD:More Car Features + Spawn Zones Expansion)).GamestaOnSpawnVehicleStartActions(OnSpawnVehicleAdditionalFeatures.lua:789).
+31088: [13-10-26 23:51:10.594] ERROR: General      f:48439 st:20 017 486> Lua((MOD:More Car Features + Spawn Zones Expansion)).GamestaOnSpawnVehicleStartActions> Exception thrown
+31089: 	java.lang.UnsatisfiedLinkError: 'void zombie.core.physics.Bullet.removeVehicle(int)' at Bullet.removeVehicle (Native Method).
+31090: 	Stack trace:
+31091: 		zombie.core.physics.Bullet.removeVehicle(Native Method)
+31092: 		zombie.vehicles.BaseVehicle.scriptReloaded(BaseVehicle.java:1853)
+31093: 		java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+
+PATTERN AdvancedAnimator$1.visitFileFailed: 858 lines
+9036: [13-10-26 22:27:49.680] WARN : Script       f:0 st:15 016 571 at ModelScript.checkMesh               > no such mesh "WorldItems/USMIL_worldItems|USMIL_stretcher" for Base.USMILStretcher0WI.
+9037: [13-10-26 22:27:49.680] WARN : Script       f:0 st:15 016 571 at ModelScript.checkMesh               > no such mesh "WorldItems/USMIL_worldItems|USMIL_viewport_largeSetWI" for Base.USMILLargeViewportPack0WI.
+9038: [13-10-26 22:27:50.451] LOG  : General      f:0 st:15 017 342> LOADING ASSETS: START.
+9039: [13-10-26 22:27:52.807] LOG  : General      f:0 st:15 019 698> LOADING ASSETS: FINISH.
+9040: [13-10-26 22:27:52.885] ERROR: General      f:0 st:15 019 777> AdvancedAnimator$1.visitFileFailed> Exception thrown
+9041: 	java.nio.file.NoSuchFileException: E:\SteamLibrary\steamapps\common\ProjectZomboid\steamapps\workshop\content\108600\3619862853\mods\ZombieBuddy\common\media\AnimSets at WindowsException.translateToIOException(null:-1).
+9042: 	Stack trace:
+9043: 		java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+9044: 		java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+
+9058: 		zombie.core.skinnedmodel.advancedanimation.AdvancedAnimator.load(AdvancedAnimator.java:928)
+9059: 		zombie.network.GameServer.doMinimumInit(GameServer.java:1507)
+9060: 		zombie.network.GameServer.main(GameServer.java:804)
+9061: .
+9062: [13-10-26 22:27:52.885] ERROR: General      f:0 st:15 019 777> AdvancedAnimator$1.visitFileFailed> Exception thrown
+9063: 	java.nio.file.NoSuchFileException: E:\SteamLibrary\steamapps\common\ProjectZomboid\steamapps\workshop\content\108600\3619862853\mods\ZombieBuddy\common\media\actiongroups at WindowsException.translateToIOException(null:-1).
+9064: 	Stack trace:
+9065: 		java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+9066: 		java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+
+9080: 		zombie.core.skinnedmodel.advancedanimation.AdvancedAnimator.load(AdvancedAnimator.java:928)
+9081: 		zombie.network.GameServer.doMinimumInit(GameServer.java:1507)
+9082: 		zombie.network.GameServer.main(GameServer.java:804)
+9083: .
+9084: [13-10-26 22:27:52.885] ERROR: General      f:0 st:15 019 778> AdvancedAnimator$1.visitFileFailed> Exception thrown
+9085: 	java.nio.file.NoSuchFileException: E:\SteamLibrary\steamapps\common\ProjectZomboid\steamapps\workshop\content\108600\3619862853\mods\ZombieBuddy\42\media\AnimSets at WindowsException.translateToIOException(null:-1).
+9086: 	Stack trace:
+9087: 		java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+9088: 		java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+
+PATTERN IsoPropertyType.lookupOrDefaultStr: 10 lines
+28046: [13-10-26 22:28:27.121] LOG  : General      f:0 st:15 054 012> SandboxOptions.load() end.
+28047: [13-10-26 22:28:27.121] LOG  : General      f:0 st:15 054 012> ItemPickerJava.Parse() start.
+28048: [13-10-26 22:28:27.343] LOG  : General      f:0 st:15 054 234> ItemPickerJava.Parse() end.
+28049: [13-10-26 22:28:27.343] LOG  : General      f:0 st:15 054 235> LoadTileDefinitions start.
+28050: [13-10-26 22:28:27.432] ERROR: WorldGen     f:0 st:15 054 323> IsoPropertyType.lookupOrDefaultStr> Exception thrown
+28051: 	zombie.core.properties.IsoPropertyType$IsoPropertyTypeNotFoundException: Property Name not found: ladderW at IsoPropertyType.lookup(IsoPropertyType.java:273). Message: Property Name not found: ladderW
+28052: 	Stack trace:
+28053: 		zombie.core.properties.IsoPropertyType.lookup(IsoPropertyType.java:273)
+28054: 		zombie.core.properties.IsoPropertyType.lookupOrDefaultStr(IsoPropertyType.java:281)
+
+28050: [13-10-26 22:28:27.432] ERROR: WorldGen     f:0 st:15 054 323> IsoPropertyType.lookupOrDefaultStr> Exception thrown
+28051: 	zombie.core.properties.IsoPropertyType$IsoPropertyTypeNotFoundException: Property Name not found: ladderW at IsoPropertyType.lookup(IsoPropertyType.java:273). Message: Property Name not found: ladderW
+28052: 	Stack trace:
+28053: 		zombie.core.properties.IsoPropertyType.lookup(IsoPropertyType.java:273)
+28054: 		zombie.core.properties.IsoPropertyType.lookupOrDefaultStr(IsoPropertyType.java:281)
+28055: 		zombie.core.TilePropertyAliasMap.register(TilePropertyAliasMap.java:54)
+28056: 		zombie.core.TilePropertyAliasMap.Generate(TilePropertyAliasMap.java:27)
+28057: 		zombie.iso.IsoWorld.GenerateTilePropertyLookupTables(IsoWorld.java:1368)
+28058: 		zombie.iso.IsoWorld.init(IsoWorld.java:2015)
+
+28057: 		zombie.iso.IsoWorld.GenerateTilePropertyLookupTables(IsoWorld.java:1368)
+28058: 		zombie.iso.IsoWorld.init(IsoWorld.java:2015)
+28059: 		zombie.network.GameServer.main(GameServer.java:817)
+28060: .
+28061: [13-10-26 22:28:27.432] ERROR: WorldGen     f:0 st:15 054 323> IsoPropertyType.lookupOrDefaultStr> Exception thrown
+28062: 	zombie.core.properties.IsoPropertyType$IsoPropertyTypeNotFoundException: Property Name not found: ladderS at IsoPropertyType.lookup(IsoPropertyType.java:273). Message: Property Name not found: ladderS
+28063: 	Stack trace:
+28064: 		zombie.core.properties.IsoPropertyType.lookup(IsoPropertyType.java:273)
+28065: 		zombie.core.properties.IsoPropertyType.lookupOrDefaultStr(IsoPropertyType.java:281)
+
+PATTERN not consistent:: 164 lines
+28942: [13-10-26 22:30:58.649] LOG  : General      f:340 st:15 205 540> command entered via server console (System.in): "ping@pong".
+28943: [13-10-26 22:30:58.663] LOG  : General      f:340 st:15 205 554> <STEAMID> isCoopHost=false.
+28944: [13-10-26 22:30:58.664] LOG  : Network      f:340 st:15 205 555> Connected new client 657525598629051121 ID # 4.
+28945: [13-10-26 22:31:03.677] LOG  : General      f:390 st:15 210 568> command entered via server console (System.in): "ping@pong".
+28946: [13-10-26 22:31:06.479] WARN : Multiplayer  f:418 st:15 213 370 at INetworkPacket.logInconsistentPacket> The packet PlayerHitSquare is not consistent: <PACKET DETAILS REDACTED>
+28947: [13-10-26 22:31:07.448] WARN : Multiplayer  f:428 st:15 214 340 at INetworkPacket.logInconsistentPacket> The packet PlayerHitSquare is not consistent: <PACKET DETAILS REDACTED>
+28948: [13-10-26 22:31:08.803] LOG  : General      f:441 st:15 215 694> command entered via server console (System.in): "ping@pong".
+28949: [13-10-26 22:31:09.010] WARN : Multiplayer  f:444 st:15 215 902 at INetworkPacket.logInconsistentPacket> The packet PlayerHitSquare is not consistent: <PACKET DETAILS REDACTED>
+28950: [13-10-26 22:31:10.898] WARN : Multiplayer  f:462 st:15 217 790 at INetworkPacket.logInconsistentPacket> The packet PlayerHitSquare is not consistent: <PACKET DETAILS REDACTED>
+
+28943: [13-10-26 22:30:58.663] LOG  : General      f:340 st:15 205 554> <STEAMID> isCoopHost=false.
+28944: [13-10-26 22:30:58.664] LOG  : Network      f:340 st:15 205 555> Connected new client 657525598629051121 ID # 4.
+28945: [13-10-26 22:31:03.677] LOG  : General      f:390 st:15 210 568> command entered via server console (System.in): "ping@pong".
+28946: [13-10-26 22:31:06.479] WARN : Multiplayer  f:418 st:15 213 370 at INetworkPacket.logInconsistentPacket> The packet PlayerHitSquare is not consistent: <PACKET DETAILS REDACTED>
+28947: [13-10-26 22:31:07.448] WARN : Multiplayer  f:428 st:15 214 340 at INetworkPacket.logInconsistentPacket> The packet PlayerHitSquare is not consistent: <PACKET DETAILS REDACTED>
+28948: [13-10-26 22:31:08.803] LOG  : General      f:441 st:15 215 694> command entered via server console (System.in): "ping@pong".
+28949: [13-10-26 22:31:09.010] WARN : Multiplayer  f:444 st:15 215 902 at INetworkPacket.logInconsistentPacket> The packet PlayerHitSquare is not consistent: <PACKET DETAILS REDACTED>
+28950: [13-10-26 22:31:10.898] WARN : Multiplayer  f:462 st:15 217 790 at INetworkPacket.logInconsistentPacket> The packet PlayerHitSquare is not consistent: <PACKET DETAILS REDACTED>
+28951: [13-10-26 22:31:13.226] WARN : Multiplayer  f:486 st:15 220 118 at INetworkPacket.logInconsistentPacket> The packet PlayerHitSquare is not consistent: <PACKET DETAILS REDACTED>
+
+28945: [13-10-26 22:31:03.677] LOG  : General      f:390 st:15 210 568> command entered via server console (System.in): "ping@pong".
+28946: [13-10-26 22:31:06.479] WARN : Multiplayer  f:418 st:15 213 370 at INetworkPacket.logInconsistentPacket> The packet PlayerHitSquare is not consistent: <PACKET DETAILS REDACTED>
+28947: [13-10-26 22:31:07.448] WARN : Multiplayer  f:428 st:15 214 340 at INetworkPacket.logInconsistentPacket> The packet PlayerHitSquare is not consistent: <PACKET DETAILS REDACTED>
+28948: [13-10-26 22:31:08.803] LOG  : General      f:441 st:15 215 694> command entered via server console (System.in): "ping@pong".
+28949: [13-10-26 22:31:09.010] WARN : Multiplayer  f:444 st:15 215 902 at INetworkPacket.logInconsistentPacket> The packet PlayerHitSquare is not consistent: <PACKET DETAILS REDACTED>
+28950: [13-10-26 22:31:10.898] WARN : Multiplayer  f:462 st:15 217 790 at INetworkPacket.logInconsistentPacket> The packet PlayerHitSquare is not consistent: <PACKET DETAILS REDACTED>
+28951: [13-10-26 22:31:13.226] WARN : Multiplayer  f:486 st:15 220 118 at INetworkPacket.logInconsistentPacket> The packet PlayerHitSquare is not consistent: <PACKET DETAILS REDACTED>
+28952: [13-10-26 22:31:13.828] LOG  : General      f:492 st:15 220 719> command entered via server console (System.in): "ping@pong".
+28953: [13-10-26 22:31:14.293] WARN : Multiplayer  f:496 st:15 221 184 at INetworkPacket.logInconsistentPacket> The packet PlayerHitSquare is not consistent: <PACKET DETAILS REDACTED>
+
+PATTERN Saving took: 1 lines
+32622: [14-10-26 00:46:26.785] LOG  : General      f:81584 st:23 333 676> Saving players.
+32623: [14-10-26 00:46:26.819] LOG  : General      f:81584 st:23 333 710> Saving worldgen params.
+32624: [14-10-26 00:46:26.830] LOG  : General      f:81584 st:23 333 722> Saving GlobalModData.
+32625: [14-10-26 00:46:27.339] LOG  : General      f:81584 st:23 334 230> Saving finish.
+32626: [14-10-26 00:46:27.339] LOG  : General      f:81584 st:23 334 230> Saving took 738.1215 ms.
+32627: [14-10-26 00:46:34.382] LOG  : General      f:81584 st:23 341 273> The id_manager_data.bin file is saved.
+32628: [14-10-26 00:46:34.382] LOG  : General      f:81584 st:23 341 273> ObjectID type=Unknown last=0 new=0.
+32629: [14-10-26 00:46:34.382] LOG  : General      f:81584 st:23 341 273> ObjectID type=Player last=0 new=0.
+32630: [14-10-26 00:46:34.382] LOG  : General      f:81584 st:23 341 273> ObjectID type=Zombie last=0 new=0.
+
+PATTERN Shutdown handling finished: 1 lines
+32632: [14-10-26 00:46:34.382] LOG  : General      f:81584 st:23 341 273> ObjectID type=Container last=100 new=0.
+32633: [14-10-26 00:46:34.382] LOG  : General      f:81584 st:23 341 273> ObjectID type=DeadBody last=331 new=0.
+32634: [14-10-26 00:46:34.382] LOG  : General      f:81584 st:23 341 273> ObjectID type=Vehicle last=100 new=0.
+32635: [14-10-26 00:46:34.383] LOG  : General      f:81584 st:23 341 275> waiting for UdpEngine thread termination.
+32636: [14-10-26 00:46:35.805] LOG  : General      f:81584 st:23 342 697> Shutdown handling finished.
