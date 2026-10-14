@@ -1,0 +1,2695 @@
+[
+  {
+    "mod_id": "ZombieBuddy",
+    "config_entry": "ZombieBuddy",
+    "name": "ZombieBuddy",
+    "workshop_id": "3619862853",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3619862853",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "NeatUI_Framework",
+    "config_entry": "NeatUI_Framework",
+    "name": "NeatUI_Framework",
+    "workshop_id": "3508537032",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3508537032",
+    "declared_version": "1.0.10",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "DetailedFootwear",
+    "config_entry": "DetailedFootwear",
+    "name": "Detailed Footwear",
+    "workshop_id": "3270190005",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3270190005",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "Viewpoint",
+    "config_entry": "Viewpoint",
+    "name": "Viewpoint",
+    "workshop_id": "3809306528",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3809306528",
+    "declared_version": "0.1.6",
+    "require": [
+      "ZombieBuddy"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ViewpointSurface",
+    "config_entry": "ViewpointSurface",
+    "name": "Viewpoint - Surface Fix",
+    "workshop_id": "3814398576",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3814398576",
+    "declared_version": "1.0",
+    "require": [
+      "Viewpoint"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ATakeABathAndShowerDepthMap",
+    "config_entry": "ATakeABathAndShowerDepthMap",
+    "name": "Take A Bath And Shower: DepthMap fix",
+    "workshop_id": "3592172476",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3592172476",
+    "declared_version": "42.20.1",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "SpawnSelector",
+    "config_entry": "SpawnSelector",
+    "name": "Spawn Selector",
+    "workshop_id": "3772052709",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3772052709",
+    "declared_version": "1.0.0",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "damnlib",
+    "config_entry": "damnlib",
+    "name": "that DAMN Library",
+    "workshop_id": "3171167894",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3171167894",
+    "declared_version": "0.9856b",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "49powerWagon",
+    "config_entry": "49powerWagon",
+    "name": "'49 Dodge Power Wagon Crew Cab",
+    "workshop_id": "2900580391",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2900580391",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "59meteor",
+    "config_entry": "59meteor",
+    "name": "'59 Cadillac Miller-Meteor",
+    "workshop_id": "2772575623",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2772575623",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "62daimlerFerret",
+    "config_entry": "62daimlerFerret",
+    "name": "'62 Daimler Ferret",
+    "workshop_id": "3787530735",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3787530735",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "63beetle",
+    "config_entry": "63beetle",
+    "name": "'63 Volkswagen 1300 Beetle",
+    "workshop_id": "3005903549",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3005903549",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "63Type2Van",
+    "config_entry": "63Type2Van",
+    "name": "'63 Volkswagen Type 2 Van",
+    "workshop_id": "3041122351",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3041122351",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "65banshee",
+    "config_entry": "65banshee",
+    "name": "'65 Pontiac Banshee",
+    "workshop_id": "3566868353",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3566868353",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "66pontiacLeMans",
+    "config_entry": "66pontiacLeMans",
+    "name": "'66 Pontiac LeMans / GTO",
+    "workshop_id": "3447272250",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3447272250",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "67gt500",
+    "config_entry": "67gt500",
+    "name": "'67 Shelby GT500 + Eleanor",
+    "workshop_id": "3026723485",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3026723485",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "68firebird",
+    "config_entry": "68firebird",
+    "name": "'68 Pontiac Firebird",
+    "workshop_id": "3258343790",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3258343790",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "69camaro",
+    "config_entry": "69camaro",
+    "name": "'69 Chevrolet Camaro",
+    "workshop_id": "2991201484",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2991201484",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "69charger",
+    "config_entry": "69charger",
+    "name": "'69 Dodge Charger",
+    "workshop_id": "3631989559",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3631989559",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "69fordMustang",
+    "config_entry": "69fordMustang",
+    "name": "'69 Ford Mustang",
+    "workshop_id": "3756938756",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3756938756",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "69mini",
+    "config_entry": "69mini",
+    "name": "'69 Mini Mk2",
+    "workshop_id": "2937786633",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2937786633",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "70barracuda",
+    "config_entry": "70barracuda",
+    "name": "'70 Plymouth Barracuda",
+    "workshop_id": "2913633066",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2913633066",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "70chevelle",
+    "config_entry": "70chevelle",
+    "name": "'70 Chevrolet Chevelle / El Camino",
+    "workshop_id": "3766571591",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3766571591",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "70dodge",
+    "config_entry": "70dodge",
+    "name": "'70 Dodge Challenger",
+    "workshop_id": "2873290424",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2873290424",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "70fordEscort",
+    "config_entry": "70fordEscort",
+    "name": "'70 Ford Escort",
+    "workshop_id": "3670063857",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3670063857",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "70roadRunner",
+    "config_entry": "70roadRunner",
+    "name": "'70 Plymouth Road Runner",
+    "workshop_id": "3642935062",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3642935062",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "73fordFalcon",
+    "config_entry": "73fordFalcon",
+    "name": "'73 Ford Falcon",
+    "workshop_id": "3490370700",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3490370700",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "73nissanGTR",
+    "config_entry": "73nissanGTR",
+    "name": "'73 NISSAN Skyline GT-R",
+    "workshop_id": "3743371090",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3743371090",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "75grandPrix",
+    "config_entry": "75grandPrix",
+    "name": "'75 Pontiac Grand Prix",
+    "workshop_id": "3213391371",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3213391371",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "76chevyKseries",
+    "config_entry": "76chevyKseries",
+    "name": "'76 Chevrolet K series",
+    "workshop_id": "3161951724",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3161951724",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "76chryslerNewYorker",
+    "config_entry": "76chryslerNewYorker",
+    "name": "'76 Chrysler New Yorker",
+    "workshop_id": "3730833846",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3730833846",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "77firebird",
+    "config_entry": "77firebird",
+    "name": "'77 Pontiac Firebird",
+    "workshop_id": "3346905070",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3346905070",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "78amgeneralM35A2",
+    "config_entry": "78amgeneralM35A2",
+    "name": "'78 AM General M35 Series Trucks",
+    "workshop_id": "2799152995",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2799152995",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "78lamboCountach",
+    "config_entry": "78lamboCountach",
+    "name": "'78 Lamborghini Countach",
+    "workshop_id": "3726526329",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3726526329",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "79camaro",
+    "config_entry": "79camaro",
+    "name": "'79 Chevrolet Camaro",
+    "workshop_id": "3703948448",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3703948448",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "80manKat1",
+    "config_entry": "80manKat1",
+    "name": "'80 MAN KAT1",
+    "workshop_id": "3248388837",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3248388837",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "81deloreanDMC12",
+    "config_entry": "81deloreanDMC12",
+    "name": "'81 DeLorean DMC-12",
+    "workshop_id": "3253385114",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3253385114",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "82firebird",
+    "config_entry": "82firebird",
+    "name": "'82 Pontiac Firebird",
+    "workshop_id": "3320947974",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3320947974",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "82jeepJ10",
+    "config_entry": "82jeepJ10",
+    "name": "'82 Jeep J10",
+    "workshop_id": "2886832257",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2886832257",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "82oshkoshM911",
+    "config_entry": "82oshkoshM911",
+    "name": "'82 Oshkosh M911",
+    "workshop_id": "2618213077",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2618213077",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "82porsche911",
+    "config_entry": "82porsche911",
+    "name": "'82 Porsche 911",
+    "workshop_id": "3379334330",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3379334330",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "83amgeneralM923",
+    "config_entry": "83amgeneralM923",
+    "name": "'83 AM General M923 Hillbilly",
+    "workshop_id": "2811383142",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2811383142",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "83gmcGseriesVans",
+    "config_entry": "83gmcGseriesVans",
+    "name": "'83 GMC G-Series Vans",
+    "workshop_id": "3799732653",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3799732653",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "84buickElectra",
+    "config_entry": "84buickElectra",
+    "name": "'84 Buick Electra",
+    "workshop_id": "3596903773",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3596903773",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "84cadillacDeVille",
+    "config_entry": "84cadillacDeVille",
+    "name": "'84 Cadillac DeVille",
+    "workshop_id": "3592777775",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3592777775",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "84corvette",
+    "config_entry": "84corvette",
+    "name": "'84 Chevrolet Corvette",
+    "workshop_id": "3684254299",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3684254299",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "84gageV300",
+    "config_entry": "84gageV300",
+    "name": "'84 Cadillac Gage LAV-300",
+    "workshop_id": "3171184800",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3171184800",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "84jeepXJ",
+    "config_entry": "84jeepXJ",
+    "name": "'84 Jeep XJ Cherokee",
+    "workshop_id": "3409287192",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3409287192",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "84merc",
+    "config_entry": "84merc",
+    "name": "'84 Mercedes Benz W460",
+    "workshop_id": "2805630347",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2805630347",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "85buickLeSabre",
+    "config_entry": "85buickLeSabre",
+    "name": "'85 Buick LeSabre",
+    "workshop_id": "3418252689",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3418252689",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "85chevyCaprice",
+    "config_entry": "85chevyCaprice",
+    "name": "'85 Chevrolet Caprice / Impala",
+    "workshop_id": "3413704851",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3413704851",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "85chevyStepVan",
+    "config_entry": "85chevyStepVan",
+    "name": "'85 Chevrolet Step-Van",
+    "workshop_id": "3614034284",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3614034284",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "85oldsmobileDelta88",
+    "config_entry": "85oldsmobileDelta88",
+    "name": "'85 Oldsmobile Delta 88",
+    "workshop_id": "3418253716",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3418253716",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "85pontiacParisienne",
+    "config_entry": "85pontiacParisienne",
+    "name": "'85 Pontiac Parisienne",
+    "workshop_id": "3413706334",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3413706334",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "86chevyCUCV",
+    "config_entry": "86chevyCUCV",
+    "name": "'86 Chevrolet CUCVs + M101A2 Trailer",
+    "workshop_id": "3428008364",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3428008364",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "86fordE150",
+    "config_entry": "86fordE150",
+    "name": "'86 Ford Econoline E150",
+    "workshop_id": "2870394916",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2870394916",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "86oshkoshP19A",
+    "config_entry": "86oshkoshP19A",
+    "name": "'86 Oshkosh P19A + Military Trailers",
+    "workshop_id": "2566953935",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2566953935",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "87buickRegal",
+    "config_entry": "87buickRegal",
+    "name": "'87 Buick Regal",
+    "workshop_id": "3226885926",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3226885926",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "87chevySuburban",
+    "config_entry": "87chevySuburban",
+    "name": "'87 Chevrolet Suburban",
+    "workshop_id": "3196180339",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3196180339",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "87fordB700",
+    "config_entry": "87fordB700",
+    "name": "'87 Ford B700/F700 Trucks",
+    "workshop_id": "3110911330",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3110911330",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "87toyotaCorolla",
+    "config_entry": "87toyotaCorolla",
+    "name": "'87 Toyota Corolla AE92",
+    "workshop_id": "3779315249",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3779315249",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "87toyotaMR2",
+    "config_entry": "87toyotaMR2",
+    "name": "'87 Toyota MR2",
+    "workshop_id": "3052360250",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3052360250",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "88chevyS10",
+    "config_entry": "88chevyS10",
+    "name": "'88 Chevrolet S10",
+    "workshop_id": "2886832936",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2886832936",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "88toyotaHilux",
+    "config_entry": "88toyotaHilux",
+    "name": "'88 Toyota Hilux",
+    "workshop_id": "3435796523",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3435796523",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "89defender",
+    "config_entry": "89defender",
+    "name": "'89 LAND ROVER Defender",
+    "workshop_id": "3570973322",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3570973322",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "89dodgeCaravan",
+    "config_entry": "89dodgeCaravan",
+    "name": "'89 Dodge Caravan",
+    "workshop_id": "3034636011",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3034636011",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "89fordBronco",
+    "config_entry": "89fordBronco",
+    "name": "'89 Ford Bronco",
+    "workshop_id": "2886833398",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2886833398",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "89trooper",
+    "config_entry": "89trooper",
+    "name": "'89 Isuzu Trooper",
+    "workshop_id": "2932549988",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2932549988",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "89volvo200",
+    "config_entry": "89volvo200",
+    "name": "'89 Volvo 200 Series",
+    "workshop_id": "3292659291",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3292659291",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "90bmwE30",
+    "config_entry": "90bmwE30",
+    "name": "'90 BMW 3 Series (E30)",
+    "workshop_id": "3110913021",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3110913021",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "90fordF350ambulance",
+    "config_entry": "90fordF350ambulance",
+    "name": "'90 Ford F350 Ambulance Type 1",
+    "workshop_id": "2952802178",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2952802178",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "90pierceArrow",
+    "config_entry": "90pierceArrow",
+    "name": "'90 Pierce Arrow Pumper and Ladder Trucks",
+    "workshop_id": "2942793445",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2942793445",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "91fordLTD",
+    "config_entry": "91fordLTD",
+    "name": "'91 Ford LTD Crown Victoria",
+    "workshop_id": "3366300557",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3366300557",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "91fordRanger",
+    "config_entry": "91fordRanger",
+    "name": "'91 Ford Ranger",
+    "workshop_id": "3539691958",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3539691958",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "91geoMetro",
+    "config_entry": "91geoMetro",
+    "name": "'91 Geo Metro",
+    "workshop_id": "3008795514",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3008795514",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "91lexusLS400",
+    "config_entry": "91lexusLS400",
+    "name": "'91 Lexus LS400",
+    "workshop_id": "3770890864",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3770890864",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "91nissan240sx",
+    "config_entry": "91nissan240sx",
+    "name": "'91 Nissan 240SX",
+    "workshop_id": "3504401781",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3504401781",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "91range",
+    "config_entry": "91range",
+    "name": "'91 RANGE ROVER Classic",
+    "workshop_id": "2409333430",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2409333430",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "92amgeneralM998",
+    "config_entry": "92amgeneralM998",
+    "name": "'92 AM General M998 + M101A3 Trailer",
+    "workshop_id": "2642541073",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2642541073",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "92fordCVPI",
+    "config_entry": "92fordCVPI",
+    "name": "'92 Ford Crown Victoria Police Interceptor",
+    "workshop_id": "2962175696",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2962175696",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "92jeepYJ",
+    "config_entry": "92jeepYJ",
+    "name": "'92 Jeep Wrangler YJ",
+    "workshop_id": "3287727378",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3287727378",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "92nissanGTR",
+    "config_entry": "92nissanGTR",
+    "name": "'92 NISSAN Skyline GT-R (R32)",
+    "workshop_id": "2846036306",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2846036306",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "92vwGolfMk2",
+    "config_entry": "92vwGolfMk2",
+    "name": "'92 Volkswagen Golf Mk2",
+    "workshop_id": "3812024929",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3812024929",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "93chevySuburban",
+    "config_entry": "93chevySuburban",
+    "name": "'93 Chevrolet Suburban / Silverado",
+    "workshop_id": "3152529790",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3152529790",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "93fordElgin",
+    "config_entry": "93fordElgin",
+    "name": "'93 Ford CF8000 Elgin Street Sweeper",
+    "workshop_id": "2969343830",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2969343830",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "93fordF350",
+    "config_entry": "93fordF350",
+    "name": "'93 Ford F-Series",
+    "workshop_id": "3073430075",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3073430075",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "93fordTaurus",
+    "config_entry": "93fordTaurus",
+    "name": "'93 Ford Taurus",
+    "workshop_id": "3088951320",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3088951320",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "93mustangSSP",
+    "config_entry": "93mustangSSP",
+    "name": "'93 Ford Mustang",
+    "workshop_id": "3001592312",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3001592312",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "93townCar",
+    "config_entry": "93townCar",
+    "name": "'93 Lincoln Town Car",
+    "workshop_id": "2932547723",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2932547723",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "97bushmaster",
+    "config_entry": "97bushmaster",
+    "name": "'97 ADI Bushmaster",
+    "workshop_id": "2897390033",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2897390033",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "KI5campers",
+    "config_entry": "KI5campers",
+    "name": "Campers!",
+    "workshop_id": "3670064951",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3670064951",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "KI5trailers",
+    "config_entry": "KI5trailers",
+    "name": "Trailers!",
+    "workshop_id": "3330403100",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3330403100",
+    "declared_version": null,
+    "require": [
+      "damnlib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "tsarslib",
+    "config_entry": "tsarslib",
+    "name": "Tsar's Common Library",
+    "workshop_id": "3402491515",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3402491515",
+    "declared_version": "3.32",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "alicesWeaponSling",
+    "config_entry": "alicesWeaponSling",
+    "name": "Alice's Weapon Sling",
+    "workshop_id": "3775549570",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3775549570",
+    "declared_version": "1.7",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "alicesWeaponSlingRadialMenu",
+    "config_entry": "alicesWeaponSlingRadialMenu",
+    "name": "Alice's Weapon Sling - Radial Menu [ADDON]",
+    "workshop_id": "3775549570",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3775549570",
+    "declared_version": "1.1",
+    "require": [
+      "alicesWeaponSling"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "B42PackMule",
+    "config_entry": "B42PackMule",
+    "name": "[B42] Pack Mule",
+    "workshop_id": "3540903327",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3540903327",
+    "declared_version": "1.2.0",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "BagBottomWeaponAttach",
+    "config_entry": "BagBottomWeaponAttach",
+    "name": "Bag Bottom Weapon Attach",
+    "workshop_id": "3688814370",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3688814370",
+    "declared_version": "1.1.4",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "Become Desensitized",
+    "config_entry": "Become Desensitized",
+    "name": "[B42] Become Desensitized",
+    "workshop_id": "3713359427",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3713359427",
+    "declared_version": "1.0.0",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "BetterSortCC",
+    "config_entry": "BetterSortCC",
+    "name": "Better Sorting",
+    "workshop_id": "2313387159",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2313387159",
+    "declared_version": "2.1.5",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "SWMG",
+    "config_entry": "SWMG",
+    "name": "Gunworks-gang",
+    "workshop_id": "3722064198",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3722064198",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "BritaGunworksLocal",
+    "config_entry": "BritaGunworksLocal",
+    "name": "Brita's Weapon Pack B42 Unofficial Port",
+    "workshop_id": "3801670664",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3801670664",
+    "declared_version": null,
+    "require": [
+      "SWMG"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "BritasArmorPackB42",
+    "config_entry": "BritasArmorPackB42",
+    "name": "Brita's Armor Pack B42.20 | 贝雷塔护甲全修复版",
+    "workshop_id": "3780298456",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3780298456",
+    "declared_version": "1.4.9",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "BritaGunworksArmorCompat",
+    "config_entry": "BritaGunworksArmorCompat",
+    "name": "Brita Armor - Gunworks Compatibility",
+    "workshop_id": "3801670664",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3801670664",
+    "declared_version": null,
+    "require": [
+      "SWMG",
+      "BritaGunworksLocal",
+      "BritasArmorPackB42"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ChestRigWebbing",
+    "config_entry": "ChestRigWebbing",
+    "name": "Chest Rig Has Webbing",
+    "workshop_id": "3784322163",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3784322163",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ChestRigWebbing_Dual_Slot",
+    "config_entry": "ChestRigWebbing_Dual_Slot",
+    "name": "Chest Rig Has Webbing - Dual Slot",
+    "workshop_id": "3784322163",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3784322163",
+    "declared_version": null,
+    "require": [
+      "ChestRigWebbing"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "CHStatusHUD",
+    "config_entry": "CHStatusHUD",
+    "name": "CH Status HUD",
+    "workshop_id": "3776182375",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3776182375",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "CleanHotBar",
+    "config_entry": "CleanHotBar",
+    "name": "CleanHotBar",
+    "workshop_id": "3461263912",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3461263912",
+    "declared_version": "1.12.10",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "CleanUI",
+    "config_entry": "CleanUI",
+    "name": "CleanUI [B42.12]",
+    "workshop_id": "3437629766",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3437629766",
+    "declared_version": "2.9.9",
+    "require": [
+      "NeatUI_Framework"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "Construction1PViewpoint",
+    "config_entry": "Construction1PViewpoint",
+    "name": "Construction 1P Viewpoint",
+    "workshop_id": "3812312558",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3812312558",
+    "declared_version": "0.1.7",
+    "require": [
+      "Viewpoint"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "CyesPushDoors",
+    "config_entry": "CyesPushDoors",
+    "name": "Cye's Push Doors!",
+    "workshop_id": "3780683663",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3780683663",
+    "declared_version": "1.1.1",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "DGVCurtains",
+    "config_entry": "DGVCurtains",
+    "name": "3D Curtains & Blinds for Viewpoint [B42] byDGV",
+    "workshop_id": "3818873810",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3818873810",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "dustinguished_bolt_cutters",
+    "config_entry": "dustinguished_bolt_cutters",
+    "name": "dustinguished bolt cutters",
+    "workshop_id": "3671176591",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3671176591",
+    "declared_version": "1.2",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ExerciseWithCorpses",
+    "config_entry": "ExerciseWithCorpses",
+    "name": "ExerciseWithCorpses",
+    "workshop_id": "3404074048",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3404074048",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "FancyHandworkB42_19",
+    "config_entry": "FancyHandworkB42_19",
+    "name": "Fancy Handwork B42.20",
+    "workshop_id": "3771638611",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3771638611",
+    "declared_version": "2.5.1",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "FancyHandworkKeyFix",
+    "config_entry": "FancyHandworkKeyFix",
+    "name": "Fancy Handwork 42.21 Keybind Fix",
+    "workshop_id": "3815578676",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3815578676",
+    "declared_version": "1.0",
+    "require": [
+      "FancyHandworkB42_19"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "FishingView",
+    "config_entry": "FishingView",
+    "name": "Viewpoint Fishing",
+    "workshop_id": "3814560827",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3814560827",
+    "declared_version": "1.0.37",
+    "require": [
+      "ZombieBuddy"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "FixBlowTorchPropaneTank",
+    "config_entry": "FixBlowTorchPropaneTank",
+    "name": "Fix BlowTorch & PropaneTank",
+    "workshop_id": "3044705007",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3044705007",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "FurniturePushPull",
+    "config_entry": "FurniturePushPull",
+    "name": "Furniture Push & Pull",
+    "workshop_id": "3781319724",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3781319724",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "FWOBenchPressTreadmill",
+    "config_entry": "FWOBenchPressTreadmill",
+    "name": "FWO Working Bench Press & Treadmill",
+    "workshop_id": "2940354599",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2940354599",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "FWOFitnessWorkoutOverhaul",
+    "config_entry": "FWOFitnessWorkoutOverhaul",
+    "name": "FWO Fitness Workout Overhaul",
+    "workshop_id": "2940354599",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2940354599",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "GenRange",
+    "config_entry": "GenRange",
+    "name": "Generator Range",
+    "workshop_id": "2972289937",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2972289937",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "HeartHealthMeter",
+    "config_entry": "HeartHealthMeter",
+    "name": "Mattnetic's Heart Health Meter",
+    "workshop_id": "3805849470",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3805849470",
+    "declared_version": "1.2.3",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "VehicleRepairOverhaul",
+    "config_entry": "VehicleRepairOverhaul",
+    "name": "Vehicle Repair Overhaul [build 42]",
+    "workshop_id": "2757712197",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2757712197",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "VehicleSalvageOverhaulB42",
+    "config_entry": "VehicleSalvageOverhaulB42",
+    "name": "Vehicle Salvage Overhaul [build 42]",
+    "workshop_id": "2757712197",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2757712197",
+    "declared_version": null,
+    "require": [
+      "VehicleRepairOverhaul"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "Ivmakk_RestoreEngineQuality",
+    "config_entry": "Ivmakk_RestoreEngineQuality",
+    "name": "Restore Engine Quality",
+    "workshop_id": "3543612325",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3543612325",
+    "declared_version": "1.2.3",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "MiniHealthPanel",
+    "config_entry": "MiniHealthPanel",
+    "name": "Mini Health Panel",
+    "workshop_id": "2866258937",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2866258937",
+    "declared_version": "1.6.1.42",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "WayMoreCars",
+    "config_entry": "WayMoreCars",
+    "name": "More Car Features + Spawn Zones Expansion",
+    "workshop_id": "3520758551",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3520758551",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "MoreCarFeaturesNoHose",
+    "config_entry": "MoreCarFeaturesNoHose",
+    "name": "More Car Features - No Hose",
+    "workshop_id": "3810822450",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3810822450",
+    "declared_version": "1.0",
+    "require": [
+      "WayMoreCars"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "moreTraitsDefinitive",
+    "config_entry": "moreTraitsDefinitive",
+    "name": "More Traits Definitive",
+    "workshop_id": "3799050151",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3799050151",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "MutiesContextMenuIcons",
+    "config_entry": "MutiesContextMenuIcons",
+    "name": "Mutie's Context Menu icons",
+    "workshop_id": "3101668503",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3101668503",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "Neat_Building",
+    "config_entry": "Neat_Building",
+    "name": "Neat Building [B42.12]",
+    "workshop_id": "3536052310",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3536052310",
+    "declared_version": "1.7.9",
+    "require": [
+      "NeatUI_Framework"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "Neat_Building_AddonXP",
+    "config_entry": "Neat_Building_AddonXP",
+    "name": "Neat Building – XP & Mod Display [B42.12]",
+    "workshop_id": "3540503606",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3540503606",
+    "declared_version": "1.11.7",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "Neat_Crafting",
+    "config_entry": "Neat_Crafting",
+    "name": "Neat Crafting [B42.12]",
+    "workshop_id": "3502080466",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3502080466",
+    "declared_version": "1.7.3",
+    "require": [
+      "NeatUI_Framework"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "Neat_Crafting_AddonXP",
+    "config_entry": "Neat_Crafting_AddonXP",
+    "name": "Neat Crafting – XP & Mod Display [B42.12]",
+    "workshop_id": "3540503606",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3540503606",
+    "declared_version": "1.11.7",
+    "require": [
+      "Neat_Crafting"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "NeatUI_Equipment",
+    "config_entry": "NeatUI_Equipment",
+    "name": "NeatUI Equipment",
+    "workshop_id": "3790656296",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3790656296",
+    "declared_version": "1.0.1",
+    "require": [
+      "NeatUI_Framework"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "NeatUI_Hairstyler",
+    "config_entry": "NeatUI_Hairstyler",
+    "name": "NeatUI Hairstyler",
+    "workshop_id": "3760534563",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3760534563",
+    "declared_version": "1.0.1",
+    "require": [
+      "NeatUI_Framework"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "NeatUI_XPDrop",
+    "config_entry": "NeatUI_XPDrop",
+    "name": "NeatUI XP Drop",
+    "workshop_id": "3760545452",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3760545452",
+    "declared_version": "1.0.0",
+    "require": [
+      "NeatUI_Framework"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "NepHighBeams",
+    "config_entry": "NepHighBeams",
+    "name": "Nepenthe's High Beams",
+    "workshop_id": "3438126404",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3438126404",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "OverTheShoulderFHFix",
+    "config_entry": "OverTheShoulderFHFix",
+    "name": "Fancy Handwork fixes (unofficial)",
+    "workshop_id": "3808805481",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3808805481",
+    "declared_version": "0.3",
+    "require": [
+      "FancyHandworkB42_19"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "P4TidyUpMeister",
+    "config_entry": "P4TidyUpMeister",
+    "name": "Tidy Up Meister",
+    "workshop_id": "2769706949",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2769706949",
+    "declared_version": "1.35.1",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "PFHDTrueCargo",
+    "config_entry": "PFHDTrueCargo",
+    "name": "True Cargo",
+    "workshop_id": "3806955469",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806955469",
+    "declared_version": "0.9.7",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "Project_Cook",
+    "config_entry": "Project_Cook",
+    "name": "Project Cook [Legacy]",
+    "workshop_id": "3490188370",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3490188370",
+    "declared_version": "1.4.10",
+    "require": [
+      "NeatUI_Framework"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ProjectViewpointKI5VehiclePartsFix",
+    "config_entry": "ProjectViewpointKI5VehiclePartsFix",
+    "name": "Project Viewpoint - KI5 Vehicle Parts Fix",
+    "workshop_id": "3815019204",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3815019204",
+    "declared_version": "1.3",
+    "require": [
+      "ZombieBuddy",
+      "Viewpoint"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ProjectViewpointNearVegetation",
+    "config_entry": "ProjectViewpointNearVegetation",
+    "name": "Project Viewpoint: TREE in 3D",
+    "workshop_id": "3813172420",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3813172420",
+    "declared_version": "0.3.13",
+    "require": [
+      "Viewpoint",
+      "ZombieBuddy"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ProjectViewpointQOL",
+    "config_entry": "ProjectViewpointQOL",
+    "name": "Project Viewpoint QOL",
+    "workshop_id": "3811256204",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3811256204",
+    "declared_version": null,
+    "require": [
+      "ZombieBuddy",
+      "Viewpoint"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ProjectViewpointShelves",
+    "config_entry": "ProjectViewpointShelves",
+    "name": "Project Viewpoint: KK's Shelves in 3D",
+    "workshop_id": "3815931973",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3815931973",
+    "declared_version": "0.4.6",
+    "require": [
+      "Viewpoint",
+      "ZombieBuddy"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "PropaneRefuel",
+    "config_entry": "PropaneRefuel",
+    "name": "Propane Refuelling at Gas Pumps",
+    "workshop_id": "3778284920",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3778284920",
+    "declared_version": "1.0.2",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ProximityInventory",
+    "config_entry": "ProximityInventory",
+    "name": "Proximity Inventory B42",
+    "workshop_id": "2847184718",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2847184718",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "PushVehicle",
+    "config_entry": "PushVehicle",
+    "name": "Push Vehicle",
+    "workshop_id": "3780639614",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3780639614",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "PZMCompanion",
+    "config_entry": "PZMCompanion",
+    "name": "GPS Cross-Device - ProjectZomboidMap.com",
+    "workshop_id": "3793289804",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3793289804",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "PZShareMapNotes",
+    "config_entry": "PZShareMapNotes",
+    "name": "Share Map Notes [B42][MP]",
+    "workshop_id": "3676995511",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3676995511",
+    "declared_version": "1.1",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "PZVoxelStudioViewpoint",
+    "config_entry": "PZVoxelStudioViewpoint",
+    "name": "6275 3D models for Viewpoint [sour_kisel]",
+    "workshop_id": "3810302175",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3810302175",
+    "declared_version": "1.0",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "RainCleansBlood",
+    "config_entry": "RainCleansBlood",
+    "name": "Rain Cleans Blood",
+    "workshop_id": "2956146279",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2956146279",
+    "declared_version": "3",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "RealisticDash",
+    "config_entry": "RealisticDash",
+    "name": "Realistic Dashboard and Gauges",
+    "workshop_id": "3635591071",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3635591071",
+    "declared_version": "2.0.2",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ReloadAllMagazines",
+    "config_entry": "ReloadAllMagazines",
+    "name": "Reload All Magazines",
+    "workshop_id": "2920899878",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2920899878",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "RVPowerLib",
+    "config_entry": "RVPowerLib",
+    "name": "Vehicle Power and Appliance Library",
+    "workshop_id": "3787451639",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3787451639",
+    "declared_version": "1.27.1",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "RVPowerKI5Bushmaster",
+    "config_entry": "RVPowerKI5Bushmaster",
+    "name": "Vehicle Power and Appliance - KI5 Bushmaster",
+    "workshop_id": "3788890462",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3788890462",
+    "declared_version": "1.0.1",
+    "require": [
+      "97bushmaster",
+      "RVPowerLib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "RVPowerKI5M129Van",
+    "config_entry": "RVPowerKI5M129Van",
+    "name": "Vehicle Power and Appliance - KI5 M129 Van Trailer",
+    "workshop_id": "3788890462",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3788890462",
+    "declared_version": "1.0.1",
+    "require": [
+      "82oshkoshM911",
+      "RVPowerLib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "RVPowerKI5ManKat1",
+    "config_entry": "RVPowerKI5ManKat1",
+    "name": "Vehicle Power and Appliance - KI5 MAN KAT1",
+    "workshop_id": "3788890462",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3788890462",
+    "declared_version": "1.0.1",
+    "require": [
+      "80manKat1",
+      "RVPowerLib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "RVPowerKI5OshkoshP19A",
+    "config_entry": "RVPowerKI5OshkoshP19A",
+    "name": "Vehicle Power and Appliance - KI5 Oshkosh P19A",
+    "workshop_id": "3788890462",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3788890462",
+    "declared_version": "1.0.1",
+    "require": [
+      "86oshkoshP19A",
+      "RVPowerLib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "RVPowerKI5Type2Van",
+    "config_entry": "RVPowerKI5Type2Van",
+    "name": "Vehicle Power and Appliance - KI5 Type 2 Van",
+    "workshop_id": "3788890462",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3788890462",
+    "declared_version": "1.0.1",
+    "require": [
+      "63Type2Van",
+      "RVPowerLib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "RVPowerLibJava",
+    "config_entry": "RVPowerLibJava",
+    "name": "Vehicle Power and Appliance - Java Bridge",
+    "workshop_id": "3787451639",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3787451639",
+    "declared_version": "1.0.2",
+    "require": [
+      "ZombieBuddy",
+      "RVPowerLib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "RVPowerLibNeatUI",
+    "config_entry": "RVPowerLibNeatUI",
+    "name": "Vehicle Power and Appliance - NeatUI Skin",
+    "workshop_id": "3787451639",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3787451639",
+    "declared_version": "2.1.2",
+    "require": [
+      "RVPowerLib",
+      "NeatUI_Framework"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "SmarterStorage",
+    "config_entry": "SmarterStorage",
+    "name": "Smarter Storage",
+    "workshop_id": "3290232938",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3290232938",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "TheShortcut",
+    "config_entry": "TheShortcut",
+    "name": "TheShortcut [Legacy]",
+    "workshop_id": "3470659758",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3470659758",
+    "declared_version": "1.2.19",
+    "require": [
+      "NeatUI_Framework"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "TrueWeight",
+    "config_entry": "TrueWeight",
+    "name": "True Weight",
+    "workshop_id": "3768669395",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3768669395",
+    "declared_version": "1.10",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "twisttool",
+    "config_entry": "twisttool",
+    "name": "TwisTonFire - Tool Priority",
+    "workshop_id": "3715296334",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3715296334",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "UseItemsWhileWalkingB42",
+    "config_entry": "UseItemsWhileWalkingB42",
+    "name": "Use Items While Walking (B42)",
+    "workshop_id": "3615422211",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3615422211",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "Viewpoint2Dto3D",
+    "config_entry": "Viewpoint2Dto3D",
+    "name": "Viewpoint 2D to 3D",
+    "workshop_id": "3812510377",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3812510377",
+    "declared_version": "0.2",
+    "require": [
+      "ZombieBuddy",
+      "Viewpoint"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ViewpointAdvancedMovement",
+    "config_entry": "ViewpointAdvancedMovement",
+    "name": "Viewpoint Advanced Movement",
+    "workshop_id": "3812702301",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3812702301",
+    "declared_version": "1.4.12",
+    "require": [
+      "ZombieBuddy",
+      "Viewpoint"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ProjectViewpointADS",
+    "config_entry": "ProjectViewpointADS",
+    "name": "Project Viewpoint: Recoil & ADS (Viewpoint add-on)",
+    "workshop_id": "3812612054",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3812612054",
+    "declared_version": "1.8.9",
+    "require": [
+      "ZombieBuddy",
+      "Viewpoint"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ViewpointAdvancedThrowables",
+    "config_entry": "ViewpointAdvancedThrowables",
+    "name": "Viewpoint - Advanced Throwables",
+    "workshop_id": "3813194971",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3813194971",
+    "declared_version": "1.4.1",
+    "require": [
+      "ZombieBuddy",
+      "Viewpoint"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ViewpointTrueBallistics",
+    "config_entry": "ViewpointTrueBallistics",
+    "name": "Viewpoint True Ballistics",
+    "workshop_id": "3812864848",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3812864848",
+    "declared_version": "1.4.6",
+    "require": [
+      "ZombieBuddy",
+      "Viewpoint"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ViewpointAimSpread",
+    "config_entry": "ViewpointAimSpread",
+    "name": "Project Viewpoint - Aim Spread (True Ballistics add-on)",
+    "workshop_id": "3812510377",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3812510377",
+    "declared_version": "2.0",
+    "require": [
+      "Viewpoint",
+      "ViewpointTrueBallistics"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ViewpointMouseRightClick",
+    "config_entry": "ViewpointMouseRightClick",
+    "name": "Project Viewpoint - Right Click in Mouse Mode",
+    "workshop_id": "3812510377",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3812510377",
+    "declared_version": "1.3",
+    "require": [
+      "Viewpoint"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ViewpointCrosshairUse",
+    "config_entry": "ViewpointCrosshairUse",
+    "name": "Project Viewpoint - Crosshair Use",
+    "workshop_id": "3812510377",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3812510377",
+    "declared_version": "1.2",
+    "require": [
+      "Viewpoint",
+      "ViewpointMouseRightClick"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ViewpointEffects3D",
+    "config_entry": "ViewpointEffects3D",
+    "name": "Project Viewpoint - 3D Gun Effects, Tracers and Fireflies",
+    "workshop_id": "3812510377",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3812510377",
+    "declared_version": "1.2",
+    "require": [
+      "Viewpoint"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ViewpointFences",
+    "config_entry": "ViewpointFences",
+    "name": "Viewpoint 3D Fences and Gates - Beta",
+    "workshop_id": "3813723091",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3813723091",
+    "declared_version": "0.3.8",
+    "require": [
+      "Viewpoint",
+      "PZVoxelStudioViewpoint"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ViewpointFences3D",
+    "config_entry": "ViewpointFences3D",
+    "name": "Viewpoint - 3D Fences",
+    "workshop_id": "3814486926",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3814486926",
+    "declared_version": "1.0.0",
+    "require": [
+      "Viewpoint"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ViewpointFPSPlus",
+    "config_entry": "ViewpointFPSPlus",
+    "name": "ViewpointFPS+帧率提升",
+    "workshop_id": "3814046234",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3814046234",
+    "declared_version": "1.0.1beta",
+    "require": [
+      "Viewpoint"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ViewpointImmersiveEffects",
+    "config_entry": "ViewpointImmersiveEffects",
+    "name": "Viewpoint - Immersive Effects",
+    "workshop_id": "3812984535",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3812984535",
+    "declared_version": "1.1.2",
+    "require": [
+      "ZombieBuddy",
+      "Viewpoint"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ViewpointLivingProps",
+    "config_entry": "ViewpointLivingProps",
+    "name": "Viewpoint: Living Props",
+    "workshop_id": "3816442251",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3816442251",
+    "declared_version": "1.0.3",
+    "require": [
+      "Viewpoint",
+      "ZombieBuddy"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ViewpointPlaceItems",
+    "config_entry": "ViewpointPlaceItems",
+    "name": "Project Viewpoint - Item Placement (3D)",
+    "workshop_id": "3812510377",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3812510377",
+    "declared_version": "1.3",
+    "require": [
+      "Viewpoint"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ViewpointReticle",
+    "config_entry": "ViewpointReticle",
+    "name": "Project Viewpoint - Crosshair Options",
+    "workshop_id": "3812510377",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3812510377",
+    "declared_version": "1.1",
+    "require": [
+      "Viewpoint"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ViewpointTrueWeathers",
+    "config_entry": "ViewpointTrueWeathers",
+    "name": "Project Viewpoint: True Weathers & Lighting",
+    "workshop_id": "3813908957",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3813908957",
+    "declared_version": "3.11.1",
+    "require": [
+      "ZombieBuddy",
+      "Viewpoint"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ViewpointTrueWeathersGameplay",
+    "config_entry": "ViewpointTrueWeathersGameplay",
+    "name": "Project Viewpoint: True Weathers - Gameplay",
+    "workshop_id": "3813908957",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3813908957",
+    "declared_version": "3.1.2",
+    "require": [
+      "ZombieBuddy"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ViewpointZoomHold",
+    "config_entry": "ViewpointZoomHold",
+    "name": "Project Viewpoint - Hold to Zoom",
+    "workshop_id": "3812510377",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3812510377",
+    "declared_version": "1.0",
+    "require": [
+      "Viewpoint",
+      "ProjectViewpointQOL"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "Visited_building_auto_marker",
+    "config_entry": "Visited_building_auto_marker",
+    "name": "Visited_building_auto_marker",
+    "workshop_id": "3418030724",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3418030724",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "VSUIKI5",
+    "config_entry": "VSUIKI5",
+    "name": "Vehicle Seat UI (KI5)",
+    "workshop_id": "3501302358",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3501302358",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "EFTBP",
+    "config_entry": "EFTBP",
+    "name": "Escape From Tarkov Backpacks",
+    "workshop_id": "3432928943",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3432928943",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "FH",
+    "config_entry": "FH",
+    "name": "Fluffy Hair",
+    "workshop_id": "2447729538",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2447729538",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "GanydeBielovzki's Frockin Backstage!",
+    "config_entry": "GanydeBielovzki's Frockin Backstage!",
+    "name": "Frockin Backstage!",
+    "workshop_id": "3798146388",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3798146388",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "GanydeBielovzki's Frockin Splendor! Vol.6",
+    "config_entry": "GanydeBielovzki's Frockin Splendor! Vol.6",
+    "name": "Frockin Splendor! Vol.6",
+    "workshop_id": "3798149669",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3798149669",
+    "declared_version": null,
+    "require": [
+      "GanydeBielovzki's Frockin Backstage!"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "VanillaGearExpanded",
+    "config_entry": "VanillaGearExpanded",
+    "name": "Vanilla Gear Expanded",
+    "workshop_id": "3401134276",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3401134276",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "VanillaOutfitsExpanded",
+    "config_entry": "VanillaOutfitsExpanded",
+    "name": "Vanilla Outfits Expanded",
+    "workshop_id": "3783094058",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3783094058",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "amclub",
+    "config_entry": "amclub",
+    "name": "Autotsar Motorclub",
+    "workshop_id": "3404737883",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3404737883",
+    "declared_version": "2.24",
+    "require": [
+      "tsarslib"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "aparosa_pz3dMinimap",
+    "config_entry": "aparosa_pz3dMinimap",
+    "name": "Project Viewpoint / PZ3D Minimap [B42] - Round, Rotates With You",
+    "workshop_id": "3810179295",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3810179295",
+    "declared_version": "1.7.17",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ViewpointDoor",
+    "config_entry": "ViewpointDoor",
+    "name": "Viewpoint - Door Fix",
+    "workshop_id": "3812151347",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3812151347",
+    "declared_version": "1.0",
+    "require": [
+      "Viewpoint"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "BasileDoors3D",
+    "config_entry": "BasileDoors3D",
+    "name": "Project Viewpoint - 3D Doors, Gates & Garages",
+    "workshop_id": "3818859807",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3818859807",
+    "declared_version": "0.2.3",
+    "require": [
+      "ZombieBuddy",
+      "Viewpoint"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "bdtmre",
+    "config_entry": "bdtmre",
+    "name": "MRE Mod",
+    "workshop_id": "3765409550",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3765409550",
+    "declared_version": "1.0.0",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "BetterFlashlightsFixed",
+    "config_entry": "BetterFlashlightsFixed",
+    "name": "[B42] Better Flashlights",
+    "workshop_id": "3420478458",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3420478458",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "BritaGunworksViewpointCompatibility",
+    "config_entry": "BritaGunworksViewpointCompatibility",
+    "name": "Brita B42 - Viewpoint Compatibility",
+    "workshop_id": "3801670664",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3801670664",
+    "declared_version": null,
+    "require": [
+      "BritaGunworksLocal",
+      "Viewpoint",
+      "ProjectViewpointADS",
+      "ZombieBuddy"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "BushmasterAmbulanceCapacity300",
+    "config_entry": "BushmasterAmbulanceCapacity300",
+    "name": "Bushmaster Ambulance - Capacity 300",
+    "workshop_id": null,
+    "workshop_url": null,
+    "declared_version": "2.0",
+    "require": [
+      "97bushmaster"
+    ],
+    "distribution": "local addon"
+  },
+  {
+    "mod_id": "Car2CarSiphon",
+    "config_entry": "Car2CarSiphon",
+    "name": "Car to Car Siphon",
+    "workshop_id": "3705580001",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3705580001",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ChuckleberryFinnAlertSystem",
+    "config_entry": "ChuckleberryFinnAlertSystem",
+    "name": "Mod Update and Alert System",
+    "workshop_id": "3077900375",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3077900375",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "CVI",
+    "config_entry": "CVI",
+    "name": "Carry Visible Items",
+    "workshop_id": "3749026793",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3749026793",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "EquipClothingWhileMoving",
+    "config_entry": "EquipClothingWhileMoving",
+    "name": "Equip Clothing While Moving (B42.12)",
+    "workshop_id": "3446510982",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3446510982",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "errorMagnifier",
+    "config_entry": "errorMagnifier",
+    "name": "errorMagnifier",
+    "workshop_id": "2896041179",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2896041179",
+    "declared_version": null,
+    "require": [
+      "ChuckleberryFinnAlertSystem"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "GasPumpIndicator",
+    "config_entry": "GasPumpIndicator",
+    "name": "Gas Pump Indicator",
+    "workshop_id": "3755993986",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3755993986",
+    "declared_version": "1.6.1",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "home_inventory",
+    "config_entry": "home_inventory",
+    "name": "Home Inventory",
+    "workshop_id": "3496924086",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3496924086",
+    "declared_version": "1.11.0",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ImprovisedSilencers",
+    "config_entry": "ImprovisedSilencers",
+    "name": "Improvised Silencers (Build 42.20 Compatibility)",
+    "workshop_id": "3779164273",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3779164273",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "IndustrialWorks",
+    "config_entry": "IndustrialWorks",
+    "name": "Industrial Works",
+    "workshop_id": "3680638986",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3680638986",
+    "declared_version": "1.2",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "MkshftChrgr",
+    "config_entry": "MkshftChrgr",
+    "name": "Makeshift Charger",
+    "workshop_id": "3778901624",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3778901624",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "NeatLockpicking",
+    "config_entry": "NeatLockpicking",
+    "name": "Neat Lockpicking",
+    "workshop_id": "3783535220",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3783535220",
+    "declared_version": "1.3",
+    "require": [
+      "NeatUI_Framework"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ProjectALifeNPCs",
+    "config_entry": "ProjectALifeNPCs",
+    "name": "Project A-Life [ALIFE NPCS]",
+    "workshop_id": "3803984183",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3803984183",
+    "declared_version": "1.4.1",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ProjectALifeNPCsRU_Easy",
+    "config_entry": "ProjectALifeNPCsRU_Easy",
+    "name": "Project A-Life [RU] - EASY",
+    "workshop_id": "3806181882",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806181882",
+    "declared_version": "1.7.2",
+    "require": [
+      "ProjectALifeNPCs"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ScarSystem",
+    "config_entry": "ScarSystem",
+    "name": "ScarSystem",
+    "workshop_id": "3750907049",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3750907049",
+    "declared_version": "1.0.2",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "SimAntibodies",
+    "config_entry": "SimAntibodies",
+    "name": "Simulated Antibodies (42.13.1 MP) Alpha 1.6.1",
+    "workshop_id": "3623275770",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3623275770",
+    "declared_version": "1.6.1",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "SpnHair",
+    "config_entry": "SpnHair",
+    "name": "Spongie's Hair",
+    "workshop_id": "2463184726",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2463184726",
+    "declared_version": "29",
+    "require": [
+      "FH"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "SurvivorBriefing",
+    "config_entry": "SurvivorBriefing",
+    "name": "Survivor Briefing",
+    "workshop_id": "3808944882",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3808944882",
+    "declared_version": "0.9",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "TakeABathAndShowerNew",
+    "config_entry": "TakeABathAndShowerNew",
+    "name": "Take A Bath And Shower [SP/MP]",
+    "workshop_id": "3592172476",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3592172476",
+    "declared_version": "42.20.4",
+    "require": [
+      "ATakeABathAndShowerDepthMap"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "Viewpoint2Dto3D_ExtendedPatch",
+    "config_entry": "Viewpoint2Dto3D_ExtendedPatch",
+    "name": "Viewpoint 2D to 3D - Extended Patch",
+    "workshop_id": "3812510377",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3812510377",
+    "declared_version": "0.1",
+    "require": [
+      "Viewpoint",
+      "Viewpoint2Dto3D"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ViewpointBarricade",
+    "config_entry": "ViewpointBarricade",
+    "name": "Viewpoint - Barricade Fix",
+    "workshop_id": "3815033191",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3815033191",
+    "declared_version": "1.0",
+    "require": [
+      "Viewpoint"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ViewpointBetterWindow",
+    "config_entry": "ViewpointBetterWindow",
+    "name": "Viewpoint Better Window",
+    "workshop_id": "3814787969",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3814787969",
+    "declared_version": "0.1.2",
+    "require": [
+      "ZombieBuddy",
+      "Viewpoint"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ViewpointCropVisibility",
+    "config_entry": "ViewpointCropVisibility",
+    "name": "Viewpoint - Crop Visibility Fix",
+    "workshop_id": "3812659173",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3812659173",
+    "declared_version": "1.0.0",
+    "require": [
+      "ZombieBuddy",
+      "Viewpoint"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ViewpointForaging",
+    "config_entry": "ViewpointForaging",
+    "name": "Viewpoint Foraging",
+    "workshop_id": "3814994364",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3814994364",
+    "declared_version": "0.2.8",
+    "require": [
+      "ZombieBuddy",
+      "Viewpoint"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ViewpointLight",
+    "config_entry": "ViewpointLight",
+    "name": "Viewpoint - Light Fix",
+    "workshop_id": "3811344119",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3811344119",
+    "declared_version": "1.4.7",
+    "require": [
+      "Viewpoint",
+      "ZombieBuddy"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ViewpointPrecision",
+    "config_entry": "ViewpointPrecision",
+    "name": "Viewpoint Precision FIX",
+    "workshop_id": "3814074009",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3814074009",
+    "declared_version": "0.3.0",
+    "require": [
+      "ZombieBuddy",
+      "Viewpoint"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ViewpointRoofs",
+    "config_entry": "ViewpointRoofs",
+    "name": "Viewpoint - Roofs (WIP)",
+    "workshop_id": "3817294484",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3817294484",
+    "declared_version": "0.5.0",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ViewpointSnowFix",
+    "config_entry": "ViewpointSnowFix",
+    "name": "Viewpoint - Snow Fix",
+    "workshop_id": "3813428248",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3813428248",
+    "declared_version": "1.0",
+    "require": [
+      "Viewpoint"
+    ],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "VisibleDoorDamagebyYurik",
+    "config_entry": "VisibleDoorDamagebyYurik",
+    "name": "Visible Door Damage [B42 MP]",
+    "workshop_id": "3799596085",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3799596085",
+    "declared_version": "1.0",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "VisibleVehicleCouplingB42",
+    "config_entry": "VisibleVehicleCouplingB42",
+    "name": "Visible Vehicle Coupling (VVC)",
+    "workshop_id": "3807182783",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3807182783",
+    "declared_version": "1.2",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "Where_My_Sledgies_At",
+    "config_entry": "Where_My_Sledgies_At",
+    "name": "Where My Sledgies At?",
+    "workshop_id": "3756687957",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3756687957",
+    "declared_version": "0.2.2",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "WolfExtractionQuest",
+    "config_entry": "WolfExtractionQuest",
+    "name": "Wolf Extraction Quest",
+    "workshop_id": "2987772693",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2987772693",
+    "declared_version": "0.1",
+    "require": [],
+    "distribution": "Steam Workshop"
+  },
+  {
+    "mod_id": "ZombieDismembermentB42",
+    "config_entry": "ZombieDismembermentB42",
+    "name": "Zombie Dismemberment [B42.21]",
+    "workshop_id": "3811483602",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3811483602",
+    "declared_version": null,
+    "require": [],
+    "distribution": "Steam Workshop"
+  }
+]

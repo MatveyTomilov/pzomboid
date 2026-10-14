@@ -1,0 +1,7 @@
+name=Bushmaster Ambulance - Capacity 300
+id=BushmasterAmbulanceCapacity300
+require=\97bushmaster
+versionMin=42.21.0
+description=Sets item storage capacity to 300 only on Base.97bushAmbulance. Requires the original KI5 Bushmaster mod. Fuel tanks and other vehicles are unchanged.
+author=Local private addon
+modversion=2.0

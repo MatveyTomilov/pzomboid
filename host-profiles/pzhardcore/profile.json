@@ -1,0 +1,28 @@
+{
+  "snapshot_time": "2026-10-14T09:50:31.504950+03:00",
+  "game": "Project Zomboid",
+  "game_version_at_export": "42.21.0",
+  "mode": "built-in Host (not Dedicated Server)",
+  "profile": "pzhardcore",
+  "host_mod_ids": 235,
+  "host_workshop_ids": 211,
+  "previous_host_memory_mib": 7168,
+  "includes_world": false,
+  "includes_characters": false,
+  "cleared_nonempty_sensitive_keys": [
+    "Password"
+  ],
+  "omitted_world_identity_keys": [
+    "ResetID",
+    "ServerPlayerID"
+  ],
+  "required_local_mods": [
+    "BushmasterAmbulanceCapacity300"
+  ],
+  "inactive_missing_dependencies": [],
+  "notes": [
+    "Workshop downloads are not version-pinned; authors may update packages.",
+    "Client graphical/keybind/JVM settings and game/Workshop binaries are not part of this export."
+  ],
+  "local_dependency_archive_sha256": "b8daac6b306288127bb4bf99674ad11c403ed9dd342bf302fbafce11fb685362"
+}
