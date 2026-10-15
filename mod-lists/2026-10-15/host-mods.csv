@@ -1,0 +1,236 @@
+Mod ID,Name,Workshop IDs,Subscribed IDs,Files found
+ZombieBuddy,ZombieBuddy,3619862853,3619862853,True
+NeatUI_Framework,NeatUI_Framework,3508537032,3508537032,True
+DetailedFootwear,Detailed Footwear,3270190005,3270190005,True
+Viewpoint,Viewpoint,3809306528,3809306528,True
+ViewpointSurface,Viewpoint - Surface Fix,3814398576,,True
+ATakeABathAndShowerDepthMap,Take A Bath And Shower: DepthMap fix,3592172476,3592172476,True
+SpawnSelector,Spawn Selector,3772052709,,True
+damnlib,that DAMN Library 0.9877b,3171167894,3171167894,True
+49powerWagon,'49 Dodge Power Wagon Crew Cab,2900580391,,True
+59meteor,'59 Cadillac Miller-Meteor,2772575623,,True
+62daimlerFerret,'62 Daimler Ferret,3787530735,,True
+63beetle,'63 Volkswagen 1300 Beetle,3005903549,,True
+63Type2Van,'63 Volkswagen Type 2 Van,3041122351,3041122351,True
+65banshee,'65 Pontiac Banshee,3566868353,,True
+66pontiacLeMans,'66 Pontiac LeMans / GTO,3447272250,,True
+67gt500,'67 Shelby GT500 + Eleanor,3026723485,,True
+68firebird,'68 Pontiac Firebird,3258343790,,True
+69camaro,'69 Chevrolet Camaro,2991201484,,True
+69charger,'69 Dodge Charger,3631989559,,True
+69fordMustang,'69 Ford Mustang,3756938756,,True
+69mini,'69 Mini Mk2,2937786633,,True
+70barracuda,'70 Plymouth Barracuda,2913633066,,True
+70chevelle,'70 Chevrolet Chevelle / El Camino,3766571591,,True
+70dodge,'70 Dodge Challenger,2873290424,,True
+70fordEscort,'70 Ford Escort,3670063857,,True
+70roadRunner,'70 Plymouth Road Runner,3642935062,,True
+73fordFalcon,'73 Ford Falcon,3490370700,,True
+73nissanGTR,'73 NISSAN Skyline GT-R,3743371090,,True
+75grandPrix,'75 Pontiac Grand Prix,3213391371,,True
+76chevyKseries,'76 Chevrolet K series,3161951724,3161951724,True
+76chryslerNewYorker,'76 Chrysler New Yorker,3730833846,,True
+77firebird,'77 Pontiac Firebird,3346905070,,True
+78amgeneralM35A2,'78 AM General M35 Series Trucks,2799152995,2799152995,True
+78lamboCountach,'78 Lamborghini Countach,3726526329,,True
+79camaro,'79 Chevrolet Camaro,3703948448,,True
+80manKat1,'80 MAN KAT1,3248388837,,True
+81deloreanDMC12,'81 DeLorean DMC-12,3253385114,,True
+82firebird,'82 Pontiac Firebird,3320947974,,True
+82jeepJ10,'82 Jeep J10,2886832257,2886832257,True
+82oshkoshM911,'82 Oshkosh M911,2618213077,2618213077,True
+82porsche911,'82 Porsche 911,3379334330,,True
+83amgeneralM923,'83 AM General M923 Hillbilly,2811383142,,True
+83gmcGseriesVans,'83 GMC G-Series Vans,3799732653,,True
+84buickElectra,'84 Buick Electra,3596903773,,True
+84cadillacDeVille,'84 Cadillac DeVille,3592777775,,True
+84corvette,'84 Chevrolet Corvette,3684254299,,True
+84gageV300,'84 Cadillac Gage LAV-300,3171184800,,True
+84jeepXJ,'84 Jeep XJ Cherokee,3409287192,,True
+84merc,'84 Mercedes Benz W460,2805630347,,True
+85buickLeSabre,'85 Buick LeSabre,3418252689,,True
+85chevyCaprice,'85 Chevrolet Caprice / Impala,3413704851,,True
+85chevyStepVan,'85 Chevrolet Step-Van,3614034284,,True
+85oldsmobileDelta88,'85 Oldsmobile Delta 88,3418253716,,True
+85pontiacParisienne,'85 Pontiac Parisienne,3413706334,,True
+86chevyCUCV,'86 Chevrolet CUCVs + M101A2 Trailer,3428008364,,True
+86fordE150,'86 Ford Econoline E150,2870394916,,True
+86oshkoshP19A,'86 Oshkosh P19A + Military Trailers,2566953935,2566953935,True
+87buickRegal,'87 Buick Regal,3226885926,,True
+87chevySuburban,'87 Chevrolet Suburban,3196180339,,True
+87fordB700,'87 Ford B700/F700 Trucks,3110911330,,True
+87toyotaCorolla,'87 Toyota Corolla AE92,3779315249,,True
+87toyotaMR2,'87 Toyota MR2,3052360250,,True
+88chevyS10,'88 Chevrolet S10,2886832936,,True
+88toyotaHilux,'88 Toyota Hilux,3435796523,,True
+89defender,'89 LAND ROVER Defender,3570973322,,True
+89dodgeCaravan,'89 Dodge Caravan,3034636011,,True
+89fordBronco,'89 Ford Bronco,2886833398,,True
+89trooper,'89 Isuzu Trooper,2932549988,,True
+89volvo200,'89 Volvo 200 Series,3292659291,,True
+90bmwE30,'90 BMW 3 Series (E30),3110913021,,True
+90fordF350ambulance,'90 Ford F350 Ambulance Type 1,2952802178,2952802178,True
+90pierceArrow,'90 Pierce Arrow Pumper and Ladder Trucks,2942793445,2942793445,True
+91fordLTD,'91 Ford LTD Crown Victoria,3366300557,,True
+91fordRanger,'91 Ford Ranger,3539691958,,True
+91geoMetro,'91 Geo Metro,3008795514,,True
+91lexusLS400,'91 Lexus LS400,3770890864,,True
+91nissan240sx,'91 Nissan 240SX,3504401781,,True
+91range,'91 RANGE ROVER Classic,2409333430,,True
+92amgeneralM998,'92 AM General M998 + M101A3 Trailer,2642541073,,True
+92fordCVPI,'92 Ford Crown Victoria Police Interceptor,2962175696,,True
+92jeepYJ,'92 Jeep Wrangler YJ,3287727378,,True
+92nissanGTR,'92 NISSAN Skyline GT-R (R32),2846036306,,True
+92vwGolfMk2,'92 Volkswagen Golf Mk2,3812024929,,True
+93chevySuburban,'93 Chevrolet Suburban / Silverado,3152529790,,True
+93fordElgin,'93 Ford CF8000 Elgin Street Sweeper,2969343830,2969343830,True
+93fordF350,'93 Ford F-Series,3073430075,,True
+93fordTaurus,'93 Ford Taurus,3088951320,,True
+93mustangSSP,'93 Ford Mustang,3001592312,,True
+93townCar,'93 Lincoln Town Car,2932547723,,True
+97bushmaster,'97 ADI Bushmaster,2897390033,2897390033,True
+KI5campers,Campers!,3670064951,3670064951,True
+KI5trailers,Trailers!,3330403100,,True
+tsarslib,Tsar's Common Library,3402491515,3402491515,True
+alicesWeaponSling,Alice's Weapon Sling,3775549570,3775549570,True
+alicesWeaponSlingRadialMenu,Alice's Weapon Sling - Radial Menu [ADDON],3775549570,3775549570,True
+B42PackMule,[B42] Pack Mule,3540903327,3540903327,True
+BagBottomWeaponAttach,Bag Bottom Weapon Attach,3688814370,3688814370,True
+Become Desensitized,[B42] Become Desensitized,3713359427,3713359427,True
+BetterSortCC,Better Sorting,2313387159,2313387159,True
+SWMG,Gunworks-gang,3722064198,,True
+BritaGunworksLocal,Brita's Weapon Pack B42 Unofficial Port,3801670664,,True
+BritasArmorPackB42,Brita's Armor Pack B42.20 | 贝雷塔护甲全修复版,3780298456,,True
+BritaGunworksArmorCompat,Brita Armor - Gunworks Compatibility,3801670664,,True
+ChestRigWebbing,Chest Rig Has Webbing,3784322163,3784322163,True
+ChestRigWebbing_Dual_Slot,Chest Rig Has Webbing - Dual Slot,3784322163,3784322163,True
+CHStatusHUD,CH Status HUD,3776182375,3776182375,True
+CleanHotBar,CleanHotBar,3461263912,3461263912,True
+CleanUI,CleanUI [B42.12],3437629766,3437629766,True
+Construction1PViewpoint,Construction 1P Viewpoint,3812312558,3812312558,True
+CyesPushDoors,Cye's Push Doors!,3780683663,3780683663,True
+DGVCurtains,3D Curtains & Blinds for Viewpoint [B42] byDGV,3818873810,3818873810,True
+dustinguished_bolt_cutters,dustinguished bolt cutters,3671176591,3671176591,True
+ExerciseWithCorpses,ExerciseWithCorpses,3404074048,3404074048,True
+FancyHandworkB42_19,Fancy Handwork B42.20,3771638611,3771638611,True
+FancyHandworkKeyFix,Fancy Handwork 42.21 Keybind Fix,3815578676,3815578676,True
+FishingView,Viewpoint Fishing,3814560827,3814560827,True
+FixBlowTorchPropaneTank,Fix BlowTorch & PropaneTank,3044705007,3044705007,True
+FurniturePushPull,Furniture Push & Pull,3781319724,3781319724,True
+FWOBenchPressTreadmill,FWO Working Bench Press & Treadmill,2940354599,2940354599,True
+FWOFitnessWorkoutOverhaul,FWO Fitness Workout Overhaul,2940354599,2940354599,True
+GenRange,Generator Range,2972289937,2972289937,True
+HeartHealthMeter,Mattnetic's Heart Health Meter,3805849470,,True
+VehicleRepairOverhaul,Vehicle Repair Overhaul [build 41],2757712197,2757712197,True
+VehicleSalvageOverhaulB42,Vehicle Salvage Overhaul [build 42],2757712197,2757712197,True
+Ivmakk_RestoreEngineQuality,Restore Engine Quality,3543612325,3543612325,True
+MiniHealthPanel,Mini Health Panel,2866258937,,True
+WayMoreCars,More Car Features + Spawn Zones Expansion,3520758551,3520758551,True
+MoreCarFeaturesNoHose,More Car Features - No Hose,3810822450,3810822450,True
+moreTraitsDefinitive,More Traits Definitive,3799050151,,True
+MutiesContextMenuIcons,Mutie's Context Menu icons,3101668503,3101668503,True
+Neat_Building,Neat Building [B42.12],3536052310,3536052310,True
+Neat_Building_AddonXP,Neat Building – XP & Mod Display [B42.12],3540503606,3540503606,True
+Neat_Crafting,Neat Crafting [B42.12],3502080466,3502080466,True
+Neat_Crafting_AddonXP,Neat Crafting – XP & Mod Display [B42.12],3540503606,3540503606,True
+NeatUI_Equipment,NeatUI Equipment,3790656296,3790656296,True
+NeatUI_Hairstyler,NeatUI Hairstyler,3760534563,,True
+NeatUI_XPDrop,NeatUI XP Drop,3760545452,3760545452,True
+NepHighBeams,Nepenthe's High Beams,3438126404,3438126404,True
+OverTheShoulderFHFix,Fancy Handwork fixes (unofficial),3808805481,,True
+P4TidyUpMeister,Tidy Up Meister,2769706949,2769706949,True
+PFHDTrueCargo,True Cargo,3806955469,,True
+Project_Cook,Project Cook [Legacy],3490188370,3490188370,True
+ProjectViewpointKI5VehiclePartsFix,Project Viewpoint - KI5 Vehicle Parts Fix,3815019204,3815019204,True
+ProjectViewpointNearVegetation,Project Viewpoint: TREE in 3D,3813172420,3813172420,True
+ProjectViewpointQOL,Project Viewpoint QOL,3811256204,3811256204,True
+ProjectViewpointShelves,Project Viewpoint: KK's Shelves in 3D,3815931973,3815931973,True
+PropaneRefuel,Propane Refuelling at Gas Pumps,3778284920,3778284920,True
+ProximityInventory,Proximity Inventory,2847184718,2847184718,True
+PushVehicle,Push Vehicle,3780639614,3780639614,True
+PZMCompanion,GPS Cross-Device - ProjectZomboidMap.com,3793289804,3793289804,True
+PZShareMapNotes,Share Map Notes [B42][MP],3676995511,,True
+PZVoxelStudioViewpoint,6277 3D models for Viewpoint [sour_kisel],3810302175,3810302175,True
+RainCleansBlood,Rain Cleans Blood,2956146279,2956146279,True
+RealisticDash,Realistic Dashboard and Gauges,3635591071,3635591071,True
+ReloadAllMagazines,Reload All Magazines,2920899878,2920899878,True
+RVPowerLib,Vehicle Power and Appliance Library,3787451639,3787451639,True
+RVPowerKI5Bushmaster,Vehicle Power and Appliance - KI5 Bushmaster,3788890462,3788890462,True
+RVPowerKI5M129Van,Vehicle Power and Appliance - KI5 M129 Van Trailer,3788890462,3788890462,True
+RVPowerKI5ManKat1,Vehicle Power and Appliance - KI5 MAN KAT1,3788890462,3788890462,True
+RVPowerKI5OshkoshP19A,Vehicle Power and Appliance - KI5 Oshkosh P19A,3788890462,3788890462,True
+RVPowerKI5Type2Van,Vehicle Power and Appliance - KI5 Type 2 Van,3788890462,3788890462,True
+RVPowerLibJava,Vehicle Power and Appliance - Java Bridge,3787451639,3787451639,True
+RVPowerLibNeatUI,Vehicle Power and Appliance - NeatUI Skin,3787451639,3787451639,True
+SmarterStorage,Smarter Storage,3290232938,3290232938,True
+TheShortcut,TheShortcut [Legacy],3470659758,3470659758,True
+TrueWeight,True Weight,3768669395,3768669395,True
+twisttool,TwisTonFire - Tool Priority,3715296334,3715296334,True
+UseItemsWhileWalkingB42,Use Items While Walking (B42),3615422211,3615422211,True
+Viewpoint2Dto3D,Viewpoint 2D to 3D,3812510377,3812510377,True
+ViewpointAdvancedMovement,Viewpoint Advanced Movement,3812702301,3812702301,True
+ProjectViewpointADS,Project Viewpoint: Recoil & ADS (Viewpoint add-on),3812612054,3812612054,True
+ViewpointAdvancedThrowables,Viewpoint - Advanced Throwables,3813194971,,True
+ViewpointTrueBallistics,Viewpoint True Ballistics,3812864848,3812864848,True
+ViewpointAimSpread,Project Viewpoint - Aim Spread (True Ballistics add-on),3812510377,3812510377,True
+ViewpointMouseRightClick,Project Viewpoint - Right Click in Mouse Mode,3812510377,3812510377,True
+ViewpointCrosshairUse,Project Viewpoint - Crosshair Use,3812510377,3812510377,True
+ViewpointEffects3D,"Project Viewpoint - 3D Gun Effects, Tracers and Fireflies",3812510377,3812510377,True
+ViewpointFences,Viewpoint 3D Fences and Gates - Beta,3813723091,3813723091,True
+ViewpointFences3D,Viewpoint - 3D Fences,3814486926,,True
+ViewpointFPSPlus,帧率提升 - ViewpointFPS+,3814046234,3814046234,True
+ViewpointImmersiveEffects,Viewpoint - Immersive Effects,3812984535,,True
+ViewpointLivingProps,Viewpoint: Living Props,3816442251,3816442251,True
+ViewpointPlaceItems,Project Viewpoint - Item Placement (3D),3812510377,3812510377,True
+ViewpointReticle,Project Viewpoint - Crosshair Options,3812510377,3812510377,True
+ViewpointTrueWeathers,Project Viewpoint: True Weathers & Lighting,3813908957,3813908957,True
+ViewpointTrueWeathersGameplay,Project Viewpoint: True Weathers - Gameplay,3813908957,3813908957,True
+ViewpointZoomHold,Project Viewpoint - Hold to Zoom,3812510377,3812510377,True
+Visited_building_auto_marker,Visited_building_auto_marker,3418030724,,True
+VSUIKI5,Vehicle Seat UI (KI5),3501302358,,True
+EFTBP,Escape From Tarkov Backpacks,3432928943,3432928943,True
+FH,Fluffy Hair,2447729538,2447729538,True
+GanydeBielovzki's Frockin Backstage!,Frockin Backstage!,3798146388,,True
+GanydeBielovzki's Frockin Splendor! Vol.6,Frockin Splendor! Vol.6,3798149669,,True
+VanillaGearExpanded,Vanilla Gear Expanded,3401134276,3401134276,True
+VanillaOutfitsExpanded,Vanilla Outfits Expanded,3783094058,3783094058,True
+amclub,Autotsar Motorclub,3404737883,3404737883,True
+aparosa_pz3dMinimap,"Project Viewpoint / PZ3D Minimap [B42] - Round, Rotates With You",3810179295,3810179295,True
+ViewpointDoor,Viewpoint - Door Fix,3812151347,3812151347,True
+BasileDoors3D,"Project Viewpoint - 3D Doors, Gates & Garages",3818859807,3818859807,True
+bdtmre,MRE Mod,3765409550,3765409550,True
+BetterFlashlightsFixed,[B42] Better Flashlights,3420478458,,True
+BritaGunworksViewpointCompatibility,Brita B42 - Viewpoint Compatibility,3801670664,,True
+BushmasterAmbulanceCapacity300,Bushmaster Ambulance - Capacity 300,,,True
+Car2CarSiphon,Car to Car Siphon,3705580001,3705580001,True
+ChuckleberryFinnAlertSystem,[Optional] Mod Update and Alert System,3077900375,,True
+CVI,Carry Visible Items,3749026793,3749026793,True
+EquipClothingWhileMoving,Equip Clothing While Moving,3446510982,,True
+errorMagnifier,errorMagnifier,2896041179,2896041179,True
+GasPumpIndicator,Gas Pump Indicator,3755993986,3755993986,True
+home_inventory,Home Inventory,3496924086,3496924086,True
+ImprovisedSilencers,Improvised Silencers (Build 42.20 Compatibility),3779164273,3779164273,True
+IndustrialWorks,Industrial Works,3680638986,3680638986,True
+MkshftChrgr,Makeshift Charger,3778901624,3778901624,True
+NeatLockpicking,Neat Lockpicking,3783535220,3783535220,True
+ProjectALifeNPCs,Project A-Life [ALIFE NPCS],3803984183,3803984183,True
+ProjectALifeNPCsRU_Easy,Project A-Life [RU] - EASY,3806181882,3806181882,True
+ScarSystem,ScarSystem,3750907049,3750907049,True
+SimAntibodies,Simulated Antibodies (42.13.1 MP) Alpha 1.6.1,3623275770,3623275770,True
+SpnHair,Spongie's Hair,2463184726,,True
+SurvivorBriefing,Survivor Briefing,3808944882,3808944882,True
+TakeABathAndShowerNew,Take A Bath And Shower [SP/MP],3592172476,3592172476,True
+Viewpoint2Dto3D_ExtendedPatch,Viewpoint 2D to 3D - Extended Patch,3812510377,3812510377,True
+ViewpointBarricade,Viewpoint - Barricade Fix,3815033191,3815033191,True
+ViewpointBetterWindow,Viewpoint Better Window,3814787969,3814787969,True
+ViewpointCropVisibility,Viewpoint - Crop Visibility Fix,3812659173,,True
+ViewpointForaging,Viewpoint Foraging,3814994364,3814994364,True
+ViewpointLight,Viewpoint - Light Fix,3811344119,3811344119,True
+ViewpointPrecision,Viewpoint Precision FIX,3814074009,3814074009,True
+ViewpointRoofs,Viewpoint - Roofs (WIP),3817294484,,True
+ViewpointSnowFix,Viewpoint - Snow Fix,3813428248,,True
+VisibleDoorDamagebyYurik,Visible Door Damage [B42 MP],3799596085,3799596085,True
+VisibleVehicleCouplingB42,Visible Vehicle Coupling (VVC),3807182783,3807182783,True
+Where_My_Sledgies_At,Where My Sledgies At?,3756687957,3756687957,True
+WolfExtractionQuest,Wolf Extraction Quest,2987772693,2987772693,True
+ZombieDismembermentB42,Zombie Dismemberment [B42.21],3811483602,3811483602,True
