@@ -1,8 +1,8 @@
-# PZ BlackBox feasibility — initial local audit
+# PZ BlackBox feasibility
 
-Scope: local B42.21.0, bundled Zulu 25.0.1, installed ZombieBuddy 2.3.4. This matrix is initial and must be updated after implementation and actual tests. PROTOTYPED below initially means an identified observation point awaiting implementation and verification, not a completed collector.
+Scope: local B42.21.0, bundled Zulu 25.0.1, installed ZombieBuddy 2.3.4. All named components are now implemented. PROTOTYPED means real code and checked observation targets, without actual gameplay confirmation. VERIFIED applies only to the explicitly described isolated mechanism/test, not to whole-game compatibility.
 
-| Measurement | Observation point / meaning | Initial status / limitation |
+| Measurement | Observation point / meaning | Status / limitation |
 |---|---|---|
 | Frame work / interval | private static GameWindow.frameStep(); private logic(); renderInternal(). frameStep excludes the pacing sleep in the outer run loop. Interval between starts includes pacing. Rendering is GameThread CPU submission, not GPU completion. | PROTOTYPED; inspected local bytecode/decompilation, no game run |
 | Lua boundary calls | se.krka.kahlua.integration.LuaCaller.pcall/pcallvoid/pcallBoolean/protectedCallVoid/protectedCallBoolean | PROTOTYPED; arrays wrappers delegate to other hooked overloads. Avoid duplicate wrapper calls while preserve distinct nested closures. No coverage of internal Lua-to-Lua calls |
@@ -10,11 +10,11 @@ Scope: local B42.21.0, bundled Zulu 25.0.1, installed ZombieBuddy 2.3.4. This ma
 | Lua closure source | LuaClosure.prototype.filename/file/name/lines | PROTOTYPED; inspect same source as ZBLuaPerfMon, cache bounded identities |
 | Java sampling / GC / contention | bundled jdk.jfr present; Recording and RecordingFile | PROTOTYPED; no global flags, bounded low-rate recording |
 | Error reporting | DebugLogStream.printException(... Throwable first ...) plus bounded capture of failed Lua protected calls | PROTOTYPED; nested overloads must count once; no global PrintStream replacement |
-| Loaded zombies | IsoCell.getZombieList and per-zombie update timing | PROTOTYPED; periodic game-thread counts and bounded traversal, not total world population |
+| Loaded zombies | IsoWorld.instance.currentCell.getZombieList and per-zombie update timing | PROTOTYPED; periodic game-thread counts and bounded traversal, not total world population |
 | Chunk reading/preparation | WorldStreamer.DoChunkAlways(IsoChunk,ByteBuffer); IsoChunk.LoadChunk(int,int,ByteBuffer), loadInWorldStreamerThread(), doLoadGridsquare() | PROTOTYPED; request counts not unique chunks, stages can nest |
 | Asset lifecycle | AssetManager.load(AssetPath[,params]), onLoadingSucceeded/onLoadingFailed | PROTOTYPED; request overhead is not async completion latency; texture lookups are not GPU uploads |
 | Texture lookup | Texture.getSharedTextureInternal(String,int) | PROTOTYPED; no reliable cache distinction until verified |
-| Registry | ZomboidFileSystem.instance.getModIDs/getModDir/getModInfoForDir; Loader.getActiveJavaMods | PROTOTYPED; loaded Java list separate from installed source directories |
+| Registry | ZomboidFileSystem.instance.getModIDs/getModDir/getModInfoForDir; public ZombieBuddy.getActiveJavaMods | PROTOTYPED; exact loaded jarPath separate from installed metadata; bounded alternate-copy scan in discovered libraries |
 | Context | game-thread player/vehicle role; GameClient.client/GameServer.server; CoopMaster.isRunning | PROTOTYPED; camera mode UNKNOWN without mod integration |
 | GPU / VRAM | No safe universal Java measurement identified | UNSUPPORTED; retain null and reason |
 | Host deep recording | Separate server JVM requires actual ZombieBuddy agent load there | BLOCKED if agent absent; client presence proves nothing about server |
@@ -42,6 +42,12 @@ Scope: local B42.21.0, bundled Zulu 25.0.1, installed ZombieBuddy 2.3.4. This ma
 - Structured exact descriptors extracted from installed game without class initialization: [API signatures](evidence/b42-21-api-signatures.json).
 - Built-in CoopMaster.launchServer inspected: separate child JVM gets heap/classpath/home/cache arguments; it does not forward the client javaagent option. No Host process was launched.
 
-## Implementation gate
+## Реализация и проверка
 
-Cursor CLI was invoked with the required `cursor-grok-4.6-xhigh` model and correct branch/worktree. It exited1 before implementation: `ActionRequiredError: ... You're out of usage`. An owner decision is pending for the AGENTS.md Codex-implementation exception plus independent review. No implementation or game verification is claimed at this stage.
+Cursor CLI with required `cursor-grok-4.6-xhigh` exited before implementation because its usage allowance was exhausted. The owner explicitly authorized Codex implementation plus independent agent review; the exception is recorded in AGENTS.md. No game verification is claimed.
+
+The implemented passive hooks passed actual ZombieBuddy 2.3.4 annotation translation and offline Byte Buddy transformation of **19 patches / 33 method overloads** in the installed game. Synthetic execution through the actual PatchEngine preserves the target's return value and exception. This verifies instrumentation mechanics, not all real-world game behavior.
+
+Core JSONL/rotation/queues, programmatic JFR, bounded trigger windows, metadata serialization, privacy fixtures and ZIP have **VERIFIED isolated test coverage**. Game-specific Frame/Lua/World/Streaming/Asset/Context/Registry collectors remain **PROTOTYPED**. GPU time, VRAM, RSS, universal camera mode, direct NPC timing and exact chunk queues are **UNSUPPORTED**. Host server instrumentation is **BLOCKED when no agent is actually present in that JVM**.
+
+Raw JFR is local; safe export contains a bounded typed JFR projection rather than copying potentially private binary strings. All remaining evidence gaps and actual test counts are in TEST_RESULTS.md and LIMITATIONS.md.

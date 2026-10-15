@@ -33,7 +33,7 @@ tasks.register('testAgent', Jar) {
     manifest { attributes('Premain-Class': 'io.github.matveytomilov.pzblackbox.TestAgent', 'Can-Redefine-Classes':'true', 'Can-Retransform-Classes':'true') }
 }
 tasks.register('test', Exec) {
-    dependsOn 'testAgent', 'jar'
+    dependsOn 'testAgent', 'jar', 'stageMod'
     doFirst {
         commandLine javaBin.get(), "-javaagent:${tasks.testAgent.archiveFile.get().asFile}", '-cp', ([testClasses.get().asFile,classes.get().asFile]+cp()).join(File.pathSeparator), 'io.github.matveytomilov.pzblackbox.BlackBoxTests', gameDir.get(), layout.buildDirectory.dir('test-output').get().asFile.absolutePath
     }
@@ -41,6 +41,9 @@ tasks.register('test', Exec) {
 tasks.register('stageMod', Sync) {
     dependsOn 'jar'; into layout.buildDirectory.dir('workshop')
     from('../workshop')
+    from('../docs') { into 'Documentation'; include '*.md' }
+    from('../LICENSE')
+    from('../README.md')
     from(tasks.jar) { into 'Contents/mods/PZBlackBox/42/media/java'; rename { 'PZBlackBox.jar' } }
 }
 tasks.register('modZip', Zip) {

@@ -17,6 +17,10 @@ public final class Exporter {
         Path file=c.session.resolve("safe-export.zip"),tmp=c.session.resolve("safe-export.zip.part");
         synchronized(c.writer.ioLock()){
             c.writer.snapshotFlush();
+            long existing;try(var paths=Files.walk(c.root)){existing=paths.filter(p->Files.isRegularFile(p,LinkOption.NOFOLLOW_LINKS)).mapToLong(p->{try{return Files.size(p);}catch(IOException e){return 0;}}).sum();}
+            long need;try(var paths=Files.list(c.session)){need=paths.filter(p->Files.isRegularFile(p,LinkOption.NOFOLLOW_LINKS)&&(p.toString().endsWith(".json")||p.toString().endsWith(".jsonl"))).mapToLong(p->{try{return Files.size(p);}catch(IOException e){return 0;}}).sum();}
+            // Repeated exports keep the previous ZIP until replacement succeeds; reserve for both.
+            if(existing+need+8*1024*1024>c.config.diskBytes)throw new IOException("Insufficient BlackBox disk budget for safe export; originals retained");
             try(ZipOutputStream zip=new ZipOutputStream(Files.newOutputStream(tmp))){
                 try(var paths=Files.list(c.session)){
                     for(Path p:paths.sorted().toList()){
@@ -25,11 +29,12 @@ public final class Exporter {
                         zip.putNextEntry(new ZipEntry(name));
                         if(name.endsWith(".jsonl")){
                             try(BufferedReader r=Files.newBufferedReader(p)){String line;while((line=r.readLine())!=null){if(line.isBlank())continue;try{zip.write((Json.encode(safe(JsonReader.parse(line)))+"\n").getBytes(StandardCharsets.UTF_8));}catch(IllegalArgumentException e){/* incomplete/corrupt records omitted and disclosed */}}}
-                        }else if(name.endsWith(".json"))zip.write((Json.encode(safe(JsonReader.parse(Files.readString(p))))+"\n").getBytes(StandardCharsets.UTF_8));
+                        }else if(name.endsWith(".json"))zip.write((Json.encodeDocument(safe(JsonReader.parseDocument(Files.readString(p))))+"\n").getBytes(StandardCharsets.UTF_8));
                         else zip.write(Files.readAllBytes(p));zip.closeEntry();
                     }
                 }
-                entry(zip,"PRIVACY.md","Safe export: raw JFR and original game logs omitted because arbitrary strings cannot be guaranteed sanitized. Error messages and raw stack strings omitted; exception type/hash/repeat timings and typed Java stack samples retained. SteamIDs, IP addresses, credentials and user-home paths scrubbed. Truncated or corrupt JSONL records omitted; compare local dropped/error health counters. No saves/configs/approvals included.\n");
+                zip.putNextEntry(new ZipEntry("java-profile.jsonl"));c.java.safeProfile(zip);zip.closeEntry();
+                entry(zip,"PRIVACY.md","Safe export: raw JFR and original game logs omitted because arbitrary strings cannot be guaranteed sanitized. java-profile.jsonl contains a bounded typed JFR projection (max20000events/4MiB), numeric fields and method names only; all file paths/thread names/JVM arguments excluded. Error messages and raw stack strings omitted; exception type/hash/repeat timings and typed Java stack samples retained. SteamIDs, IP addresses, credentials and user-home paths scrubbed. Truncated or corrupt JSONL records omitted; compare local dropped/error health counters. No saves/configs/approvals included.\n");
                 entry(zip,"original-logs/README.md","Not included automatically: unknown player/chat/secret content.\n");
                 entry(zip,"jfr/README.md","Raw recordings remain local in this session's jfr directory and are excluded from automatic export. They can contain private strings. No claim of guaranteed binary JFR anonymization.\n");
                 entry(zip,"LOG_FORMAT.md",format());

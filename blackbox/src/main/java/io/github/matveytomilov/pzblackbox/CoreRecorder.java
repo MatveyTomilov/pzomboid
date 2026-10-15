@@ -29,8 +29,9 @@ public final class CoreRecorder implements AutoCloseable {
     private final AtomicBoolean stopped=new AtomicBoolean(),exporting=new AtomicBoolean();
     private final AtomicLong lastTrigger=new AtomicLong();
     public volatile Config.Mode mode;
-    private Config.Mode previousMode;
-    private long deepUntil,lastTick,clockAt;
+    private Config.Mode previousMode=Config.Mode.BALANCED;
+    private volatile long deepUntil;
+    private long lastTick,clockAt;
     private final long anchorNano=System.nanoTime();
     private final Instant anchorUtc=Instant.now();
     private final Thread shutdownHook;
@@ -59,16 +60,18 @@ public final class CoreRecorder implements AutoCloseable {
         Runtime.getRuntime().addShutdownHook(shutdownHook);
         for(String component:List.of("FrameRecorder","LuaRecorder","WorldRecorder","StreamingRecorder","AssetRecorder","ContextRecorder","ErrorRecorder","ModRegistry"))capability(component,"PROTOTYPED","Available bytecode targets inspected; real game test pending");
         capability("gpu_time","UNSUPPORTED","No universal GPU measurement; render CPU time is not GPU time");capability("vram_bytes","UNSUPPORTED","No VRAM query; heap is not process RAM/VRAM");capability("camera_mode","UNSUPPORTED","No mod-specific API integration");
-        java.start();writeMetadata(false);
-        sampler.scheduleAtFixedRate(()->{guard("SystemRecorder",system::sample);guard("LuaRecorder",lua::flush);guard("ErrorRecorder",errors::flush);guard("WorldRecorder",world::flush);guard("StreamingRecorder",streaming::flush);guard("AssetRecorder",assets::flush);guard("ModRegistry",mods::scanPending);guard("FrameRecorder",frames::flush);guard("JavaRecorder",java::samplePendingStacks);guard("clock",()->{if(mode==Config.Mode.DEEP&&System.nanoTime()>deepUntil)setMode(previousMode.name());if(System.nanoTime()-clockAt>10_000_000_000L){clockAt=System.nanoTime();emit("recorder-health","clock_anchor","System.nanoTime+Instant.now",Json.map("utc",Instant.now().toString(),"nano",clockAt));}});},0,1,TimeUnit.SECONDS);
+        java.start();if(mode==Config.Mode.DEEP)setMode("DEEP");writeMetadata(false);
+        sampler.scheduleAtFixedRate(()->{checkModeDeadline(System.nanoTime());guard("SystemRecorder",system::sample);guard("LuaRecorder",lua::flush);guard("ErrorRecorder",errors::flush);guard("WorldRecorder",world::flush);guard("StreamingRecorder",streaming::flush);guard("AssetRecorder",assets::flush);guard("ModRegistry",mods::scanPending);guard("FrameRecorder",frames::flush);guard("JavaRecorder",java::samplePendingStacks);guard("clock",()->{if(System.nanoTime()-clockAt>10_000_000_000L){clockAt=System.nanoTime();emit("recorder-health","clock_anchor","System.nanoTime+Instant.now",Json.map("utc",Instant.now().toString(),"nano",clockAt));}});},0,1,TimeUnit.SECONDS);
         emit("recorder-health","session_start","BlackBox",Json.map("mode",mode.name(),"synthetic",Boolean.getBoolean("blackbox.synthetic"),"anchor_nano",anchorNano,"anchor_utc",anchorUtc.toString()));
     }
     public void guard(String name,Runnable task){Map<String,Object> state=capabilities.get(name);if(state!=null&&"BLOCKED".equals(state.get("status")))return;try{task.run();}catch(Throwable t){capability(name,"BLOCKED","Recorder fault: "+t.getClass().getName());emit("recorder-health","collector_failed","BlackBox",Json.map("component",name,"exception_type",t.getClass().getName()));}}
     public void capability(String name,String status,String reason){capabilities.put(name,Json.map("status",status,"reason",reason));}
     public boolean enabled(String name){Map<String,Object> c=capabilities.get(name);return !stopped.get()&&(c==null||!"BLOCKED".equals(c.get("status")));}
     public boolean emit(String channel,String type,String source,Map<String,Object> data){return writer.offer(Observation.now(channel,type,source,data));}
+    public Instant utcAt(long nano){return anchorUtc.plusNanos(nano-anchorNano);}
     public void trigger(String reason){long now=System.nanoTime(),last=lastTrigger.get();if(now-last<5_000_000_000L)return;if(lastTrigger.compareAndSet(last,now)){emit("recorder-health","trigger","BlackBox",Json.map("reason",reason,"pre_seconds",30,"post_seconds",15));java.snapshotStacks();}}
     public synchronized void setMode(String value){Config.Mode next=Config.Mode.valueOf(value.toUpperCase(Locale.ROOT));if(next==Config.Mode.DEEP){if(mode!=Config.Mode.DEEP)previousMode=mode;deepUntil=System.nanoTime()+60_000_000_000L;}mode=next;java.setDeep(next==Config.Mode.DEEP);emit("recorder-health","mode_changed","BlackBox",Json.map("mode",mode.name(),"deep_max_seconds",60));}
+    public synchronized void checkModeDeadline(long now){if(mode==Config.Mode.DEEP&&now>deepUntil)setMode(previousMode.name());}
     /** Only invoked by game-thread hooks or shared OnTick, never the sampler. */
     public void gameTick(){if(stopped.get())return;long now=System.nanoTime();if(now-lastTick<1_000_000_000L)return;lastTick=now;guard("ContextRecorder",context::sampleOnGameThread);guard("WorldRecorder",world::sampleOnGameThread);guard("ModRegistry",mods::captureOnGameThread);}
     public boolean requestExport(){if(stopped.get()||!exporting.compareAndSet(false,true))return false;exportWorker.submit(()->{try{writeMetadata(false);Exporter.export(this);}catch(Throwable t){emit("recorder-health","export_failed","BlackBox",Json.map("exception_type",t.getClass().getName()));}finally{exporting.set(false);}});return true;}
@@ -83,11 +86,11 @@ public final class CoreRecorder implements AutoCloseable {
             }catch(Exception e){writer.ioErrors.increment();}
         }
     }
-    public void writeJson(String name,Object data)throws Exception{Path p=session.resolve(name);Path tmp=session.resolve(name+".tmp");Files.writeString(tmp,Json.encode(data)+"\n");try{Files.move(tmp,p,StandardCopyOption.REPLACE_EXISTING,StandardCopyOption.ATOMIC_MOVE);}catch(AtomicMoveNotSupportedException e){Files.move(tmp,p,StandardCopyOption.REPLACE_EXISTING);}}
+    public void writeJson(String name,Object data)throws Exception{Path p=session.resolve(name);Path tmp=session.resolve(name+".tmp");Files.writeString(tmp,Json.encodeDocument(data)+"\n");try{Files.move(tmp,p,StandardCopyOption.REPLACE_EXISTING,StandardCopyOption.ATOMIC_MOVE);}catch(AtomicMoveNotSupportedException e){Files.move(tmp,p,StandardCopyOption.REPLACE_EXISTING);}}
     public void close(){
         if(!stopped.compareAndSet(false,true))return;
         sampler.shutdown();try{sampler.awaitTermination(1500,TimeUnit.MILLISECONDS);}catch(InterruptedException e){Thread.currentThread().interrupt();}
-        guard("LuaRecorder",lua::flush);guard("ErrorRecorder",errors::flush);guard("FrameRecorder",frames::flush);java.close();
+        guard("LuaRecorder",lua::flush);guard("ErrorRecorder",errors::flush);guard("ErrorRecorder",errors::flush);guard("FrameRecorder",frames::flush);guard("WorldRecorder",world::flush);guard("StreamingRecorder",streaming::flush);guard("AssetRecorder",assets::flush);guard("ModRegistry",mods::scanPending);mods.close();java.close();
         emit("recorder-health","session_stop","BlackBox",Json.map("shutdown_drain_requested",true));writer.close();writeMetadata(writer.isClosed());
         if(config.automaticExport&&!exporting.get())exportWorker.submit(()->{try{Exporter.export(this);}catch(Throwable ignored){}});
         exportWorker.shutdown();try{exportWorker.awaitTermination(2000,TimeUnit.MILLISECONDS);}catch(InterruptedException e){Thread.currentThread().interrupt();}

@@ -8,7 +8,7 @@ public final class LuaRecorder {
     public record Function(String file,String name,int line) {}
     public static final class Call {
         public final Object function; public final String method,event; public final long start,thread,frame;
-        long children;boolean alias;
+        long children;boolean alias,arrayWrapper;
         Call(Object f,String m,String e,long now){function=f;method=m;event=e;start=now;thread=Thread.currentThread().threadId();frame=FrameRecorder.currentFrame();}
     }
     private static final class Stats {
@@ -23,12 +23,15 @@ public final class LuaRecorder {
     private final ConcurrentHashMap<Function,Stats> stats=new ConcurrentHashMap<>();
     private final Function overflow=new Function("unknown","function_registry_overflow",0);
     public LuaRecorder(CoreRecorder c){core=c;}
-    public Call enter(Object f,String method){return enterAt(f,method,System.nanoTime());}
-    public Call enterAt(Object f,String method,long now){
+    public Call enter(Object f,String method){return enterAt(f,method,false,System.nanoTime());}
+    public Call enter(Object f,String method,boolean arrayWrapper){return enterAt(f,method,arrayWrapper,System.nanoTime());}
+    public Call enterAt(Object f,String method,long now){return enterAt(f,method,false,now);}
+    public Call enterAt(Object f,String method,boolean arrayWrapper,long now){
         if(core.mode==Config.Mode.LIGHT)return null;
         var a=stack.get();if(a.size()>=128){core.writer.dropped.increment();return null;}
         Call parent=a.peekLast();Call call=new Call(f,method,events.get().peekLast(),now);
-        call.alias=parent!=null&&parent.function==f&&parent.method.startsWith("protectedCall")&&method.startsWith("pcall");a.addLast(call);return call;
+        call.arrayWrapper=arrayWrapper;
+        call.alias=parent!=null&&parent.function==f&&parent.arrayWrapper&&method.startsWith("pcall");a.addLast(call);return call;
     }
     public void exit(Call call,Throwable thrown,Object result){exitAt(call,thrown,result,System.nanoTime());}
     public void exitAt(Call call,Throwable thrown,Object result,long end){

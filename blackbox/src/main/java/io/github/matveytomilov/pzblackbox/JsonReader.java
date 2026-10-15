@@ -5,8 +5,10 @@ import java.util.*;
 /** Strict parser for our own bounded JSON records, also used by export privacy filtering. */
 public final class JsonReader {
     private final String s;private int p;
-    private JsonReader(String s){if(s.length()>131072)throw new IllegalArgumentException("JSON too long");this.s=s;}
-    public static Object parse(String s){JsonReader r=new JsonReader(s);Object v=r.value(0);r.ws();if(r.p!=s.length())throw new IllegalArgumentException("Trailing input");return v;}
+    private JsonReader(String s,int limit){if(s.length()>limit)throw new IllegalArgumentException("JSON too long");this.s=s;}
+    public static Object parse(String s){return parse(s,131072);}
+    public static Object parseDocument(String s){return parse(s,8*1024*1024);}
+    private static Object parse(String s,int limit){JsonReader r=new JsonReader(s,limit);Object v=r.value(0);r.ws();if(r.p!=s.length())throw new IllegalArgumentException("Trailing input");return v;}
     private void ws(){while(p<s.length()&&Character.isWhitespace(s.charAt(p)))p++;}
     private char take(){if(p>=s.length())throw new IllegalArgumentException("Unexpected EOF");return s.charAt(p++);}
     private Object value(int depth){if(depth>16)throw new IllegalArgumentException("Depth");ws();char c=take();

@@ -73,12 +73,12 @@ public final class Hooks {
     }
     @Patch(className="se.krka.kahlua.integration.LuaCaller",methodName="protectedCallVoid")
     public static class LuaProtectedVoid {
-        @Patch.OnEnter public static void enter(@Patch.Argument(1) Object fun,@Patch.Local("bbLuaProtectedVoid") LuaRecorder.Call token){CoreRecorder c=CoreRecorder.current();if(c!=null&&c.enabled("LuaRecorder"))try{token=c.lua.enter(fun,"protectedCallVoid");}catch(Throwable t){failure("LuaRecorder",t);}}
+        @Patch.OnEnter public static void enter(@Patch.AllArguments Object[] args,@net.bytebuddy.asm.Advice.Origin("#d") String descriptor,@Patch.Local("bbLuaProtectedVoid") LuaRecorder.Call token){CoreRecorder c=CoreRecorder.current();if(c!=null&&c.enabled("LuaRecorder"))try{token=c.lua.enter(args[1],"protectedCallVoid",descriptor.endsWith(";[Ljava/lang/Object;)V"));}catch(Throwable t){failure("LuaRecorder",t);}}
         @Patch.OnExit(onThrowable=Throwable.class,suppress=Throwable.class) public static void exit(@Patch.Local("bbLuaProtectedVoid") LuaRecorder.Call token,@Patch.Thrown Throwable thrown){CoreRecorder c=CoreRecorder.current();if(c!=null&&c.enabled("LuaRecorder"))try{c.lua.exit(token,thrown,null);}catch(Throwable t){failure("LuaRecorder",t);}}
     }
     @Patch(className="se.krka.kahlua.integration.LuaCaller",methodName="protectedCallBoolean")
     public static class LuaProtectedBool {
-        @Patch.OnEnter public static void enter(@Patch.Argument(1) Object fun,@Patch.Local("bbLuaProtectedBool") LuaRecorder.Call token){CoreRecorder c=CoreRecorder.current();if(c!=null&&c.enabled("LuaRecorder"))try{token=c.lua.enter(fun,"protectedCallBoolean");}catch(Throwable t){failure("LuaRecorder",t);}}
+        @Patch.OnEnter public static void enter(@Patch.AllArguments Object[] args,@net.bytebuddy.asm.Advice.Origin("#d") String descriptor,@Patch.Local("bbLuaProtectedBool") LuaRecorder.Call token){CoreRecorder c=CoreRecorder.current();if(c!=null&&c.enabled("LuaRecorder"))try{token=c.lua.enter(args[1],"protectedCallBoolean",descriptor.endsWith(";[Ljava/lang/Object;)Ljava/lang/Boolean;"));}catch(Throwable t){failure("LuaRecorder",t);}}
         @Patch.OnExit(onThrowable=Throwable.class,suppress=Throwable.class) public static void exit(@Patch.Local("bbLuaProtectedBool") LuaRecorder.Call token,@Patch.Thrown Throwable thrown,@Patch.Return Boolean result){CoreRecorder c=CoreRecorder.current();if(c!=null&&c.enabled("LuaRecorder"))try{c.lua.exit(token,thrown,result);}catch(Throwable t){failure("LuaRecorder",t);}}
     }
     @Patch(className="zombie.iso.IsoChunk",methodName="LoadChunk")
