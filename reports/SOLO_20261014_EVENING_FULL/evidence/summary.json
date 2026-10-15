@@ -1,0 +1,162 @@
+{
+  "source_log": "2026-10-14_21-33_DebugLog.txt",
+  "source_sha256": "f0b2417dd13241bc98ec3bd208aabc7893fdaa65a787ebd263658c883190027b",
+  "source_lines": 20491,
+  "first_timestamp_moscow": "14-10-26 21:33:51.052",
+  "last_timestamp_moscow": "15-10-26 00:57:16.040",
+  "tempo_windows": 126,
+  "after_midnight_error_lines": 0,
+  "last_five_tempo_windows": [
+    [
+      "15-10-26 00:52:27.521",
+      11.5,
+      87.0,
+      24.4,
+      41,
+      1,
+      20002
+    ],
+    [
+      "15-10-26 00:53:32.518",
+      12.1,
+      82.6,
+      26.2,
+      38,
+      1,
+      20054
+    ],
+    [
+      "15-10-26 00:54:37.513",
+      12.3,
+      81.3,
+      23.6,
+      42,
+      0,
+      20152
+    ],
+    [
+      "15-10-26 00:55:37.749",
+      12.2,
+      82.0,
+      23.5,
+      43,
+      0,
+      20272
+    ],
+    [
+      "15-10-26 00:56:37.785",
+      12.3,
+      81.3,
+      24.3,
+      41,
+      0,
+      20385
+    ]
+  ],
+  "largest_measured_main_frames": [
+    {
+      "timestamp": "14-10-26 22:05:53.416",
+      "frame_ms": 985.8,
+      "viewpoint_measured_ms": 874.9,
+      "source_line": 13056
+    },
+    {
+      "timestamp": "14-10-26 22:53:17.576",
+      "frame_ms": 858.1,
+      "viewpoint_measured_ms": 3.0,
+      "source_line": 16610
+    },
+    {
+      "timestamp": "14-10-26 22:05:54.439",
+      "frame_ms": 703.5,
+      "viewpoint_measured_ms": 70.4,
+      "source_line": 13086
+    },
+    {
+      "timestamp": "14-10-26 22:05:53.739",
+      "frame_ms": 402.6,
+      "viewpoint_measured_ms": 157.0,
+      "source_line": 13073
+    },
+    {
+      "timestamp": "14-10-26 22:06:39.863",
+      "frame_ms": 332.3,
+      "viewpoint_measured_ms": 1.9,
+      "source_line": 13440
+    },
+    {
+      "timestamp": "15-10-26 00:55:20.039",
+      "frame_ms": 303.1,
+      "viewpoint_measured_ms": 1.5,
+      "source_line": 20246
+    },
+    {
+      "timestamp": "14-10-26 22:53:06.003",
+      "frame_ms": 215.3,
+      "viewpoint_measured_ms": 1.5,
+      "source_line": 16591
+    },
+    {
+      "timestamp": "14-10-26 22:47:08.705",
+      "frame_ms": 213.8,
+      "viewpoint_measured_ms": 1.0,
+      "source_line": 15595
+    },
+    {
+      "timestamp": "14-10-26 22:53:16.618",
+      "frame_ms": 194.8,
+      "viewpoint_measured_ms": 1.9,
+      "source_line": 16606
+    },
+    {
+      "timestamp": "14-10-26 22:53:23.546",
+      "frame_ms": 175.5,
+      "viewpoint_measured_ms": 3.0,
+      "source_line": 16636
+    },
+    {
+      "timestamp": "14-10-26 22:53:22.811",
+      "frame_ms": 157.7,
+      "viewpoint_measured_ms": 1.3,
+      "source_line": 16625
+    },
+    {
+      "timestamp": "14-10-26 23:32:47.154",
+      "frame_ms": 151.0,
+      "viewpoint_measured_ms": 0.9,
+      "source_line": 17722
+    }
+  ],
+  "night_largest_measured_main_frames": [
+    {
+      "timestamp": "15-10-26 00:55:20.039",
+      "frame_ms": 303.1,
+      "viewpoint_measured_ms": 1.5,
+      "source_line": 20246
+    },
+    {
+      "timestamp": "15-10-26 00:57:15.327",
+      "frame_ms": 136.9,
+      "viewpoint_measured_ms": 0.9,
+      "source_line": 20482
+    },
+    {
+      "timestamp": "15-10-26 00:07:27.900",
+      "frame_ms": 131.9,
+      "viewpoint_measured_ms": 0.9,
+      "source_line": 18796
+    },
+    {
+      "timestamp": "15-10-26 00:32:06.692",
+      "frame_ms": 127.2,
+      "viewpoint_measured_ms": 0.9,
+      "source_line": 19403
+    },
+    {
+      "timestamp": "15-10-26 00:18:19.621",
+      "frame_ms": 85.6,
+      "viewpoint_measured_ms": 1.1,
+      "source_line": 19156
+    }
+  ]
+}

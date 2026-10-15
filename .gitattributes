@@ -1,5 +1,6 @@
 host-profiles/pzhardcore/** -text
 mod-lists/** -text
+reports/SOLO_20261014_EVENING_FULL/** -text
 reports/PZ_PERFORMANCE_DIAGNOSTICS/2026-10-14/07_SOLO_SESSION_20261014.md -text
 reports/PZ_PERFORMANCE_DIAGNOSTICS/2026-10-14/08_REVIEW_COMMENTS_20261014.md -text
 reports/PZ_PERFORMANCE_DIAGNOSTICS/2026-10-14/evidence/solo-* -text
