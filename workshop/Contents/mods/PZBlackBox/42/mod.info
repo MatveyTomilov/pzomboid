@@ -1,0 +1,12 @@
+name=PZ BlackBox
+id=PZBlackBox
+author=MatveyTomilov
+modversion=0.1.0
+versionMin=42.21
+versionMax=42.21
+require=\ZombieBuddy
+description=Background technical diagnostics. Candidate for game testing. No gameplay or settings changes; no external uploads.
+javaJarFile=media/java/PZBlackBox.jar
+javaPkgName=io.github.matveytomilov.pzblackbox
+ZBVersionMin=2.3.4
+ZBVersionMax=2.9.9

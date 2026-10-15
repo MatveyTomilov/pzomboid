@@ -1,0 +1,7 @@
+blackbox/build/
+blackbox/.gradle/
+artifacts/
+*.jfr
+*.zbs
+*.key
+local.properties

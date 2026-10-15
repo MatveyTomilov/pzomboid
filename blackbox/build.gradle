@@ -1,0 +1,51 @@
+plugins { id 'base' }
+version = '0.1.0'
+def gameDir = providers.gradleProperty('gameDir').orElse(providers.environmentVariable('PZ_GAME_DIR'))
+def compiler = providers.gradleProperty('ecjJar').orElse(providers.environmentVariable('ECJ_JAR'))
+def javaBin = providers.gradleProperty('javaBin').orElse(providers.environmentVariable('JAVA_BIN')).orElse('java')
+def classes = layout.buildDirectory.dir('classes/main')
+def testClasses = layout.buildDirectory.dir('classes/test')
+def cp = { [file("${gameDir.get()}/ZombieBuddy.jar"), file("${gameDir.get()}/projectzomboid.jar")] + fileTree("${gameDir.get()}/java").matching { include '**/*.jar' }.files }
+tasks.register('compileJava', Exec) {
+    inputs.files(fileTree('src/main/java')); outputs.dir(classes)
+    doFirst {
+        if (!gameDir.isPresent() || !compiler.isPresent()) throw new GradleException('Set PZ_GAME_DIR and ECJ_JAR (ECJ >=3.43), or -PgameDir/-PecjJar; Java 25 runtime required.')
+        classes.get().asFile.mkdirs()
+        commandLine([javaBin.get(), '-jar', compiler.get(), '-21', '-g', '-proc:none', '-nowarn', '-encoding', 'UTF-8', '-classpath', cp().join(File.pathSeparator), '-d', classes.get().asFile.absolutePath] + fileTree('src/main/java').matching { include '**/*.java' }.files.collect { it.absolutePath })
+    }
+}
+tasks.register('jar', Jar) {
+    dependsOn 'compileJava'; archiveBaseName = 'PZBlackBox'; archiveVersion = project.version
+    destinationDirectory = layout.buildDirectory.dir('libs'); from(classes)
+    manifest { attributes('Implementation-Version': project.version, 'Implementation-Title': 'PZ BlackBox') }
+    preserveFileTimestamps = false; reproducibleFileOrder = true
+}
+tasks.register('compileTests', Exec) {
+    dependsOn 'compileJava'; inputs.files(fileTree('src/test/java')); outputs.dir(testClasses)
+    doFirst {
+        testClasses.get().asFile.mkdirs()
+        commandLine([javaBin.get(), '-jar', compiler.get(), '-21', '-g', '-proc:none', '-nowarn', '-encoding', 'UTF-8', '-classpath', ([classes.get().asFile]+cp()).join(File.pathSeparator), '-d', testClasses.get().asFile.absolutePath] + fileTree('src/test/java').matching { include '**/*.java' }.files.collect { it.absolutePath })
+    }
+}
+tasks.register('testAgent', Jar) {
+    dependsOn 'compileTests'; archiveFileName = 'blackbox-test-agent.jar'; destinationDirectory = layout.buildDirectory.dir('test-tools')
+    from(testClasses) { include '**/TestAgent.class' }
+    manifest { attributes('Premain-Class': 'io.github.matveytomilov.pzblackbox.TestAgent', 'Can-Redefine-Classes':'true', 'Can-Retransform-Classes':'true') }
+}
+tasks.register('test', Exec) {
+    dependsOn 'testAgent', 'jar'
+    doFirst {
+        commandLine javaBin.get(), "-javaagent:${tasks.testAgent.archiveFile.get().asFile}", '-cp', ([testClasses.get().asFile,classes.get().asFile]+cp()).join(File.pathSeparator), 'io.github.matveytomilov.pzblackbox.BlackBoxTests', gameDir.get(), layout.buildDirectory.dir('test-output').get().asFile.absolutePath
+    }
+}
+tasks.register('stageMod', Sync) {
+    dependsOn 'jar'; into layout.buildDirectory.dir('workshop')
+    from('../workshop')
+    from(tasks.jar) { into 'Contents/mods/PZBlackBox/42/media/java'; rename { 'PZBlackBox.jar' } }
+}
+tasks.register('modZip', Zip) {
+    dependsOn 'stageMod'; from(layout.buildDirectory.dir('workshop'))
+    destinationDirectory = file('../artifacts'); archiveFileName = "PZBlackBox-${project.version}-candidate.zip"
+    preserveFileTimestamps = false; reproducibleFileOrder = true
+}
+tasks.named('build') { dependsOn 'test', 'modZip' }

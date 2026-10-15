@@ -1,0 +1,6 @@
+version=1
+id=
+title=PZ BlackBox
+description=Background technical diagnostics for Project Zomboid B42.21. Requires ZombieBuddy 2.3.4. Candidate for real game testing; no gameplay changes, automatic optimization, network upload or external AI. Java JAR requires normal ZombieBuddy approval. Read installation and privacy documentation before sharing diagnostic files.
+tags=Build 42;Utilities;Multiplayer
+visibility=private
