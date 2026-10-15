@@ -34,6 +34,10 @@ public final class Hooks {
         @Patch.OnEnter public static void enter(@Patch.AllArguments Object[] args){CoreRecorder c=CoreRecorder.current();if(c!=null&&c.enabled("ErrorRecorder"))try{c.errors.logEnter();}catch(Throwable t){failure("ErrorRecorder",t);}}
         @Patch.OnExit(onThrowable=Throwable.class,suppress=Throwable.class) public static void exit(@Patch.AllArguments Object[] args){CoreRecorder c=CoreRecorder.current();if(c!=null&&c.enabled("ErrorRecorder"))try{c.errors.logExit(args.length>0&&args[0] instanceof Throwable?(Throwable)args[0]:null);}catch(Throwable t){failure("ErrorRecorder",t);}}
     }
+    @Patch(className="zombie.debug.DebugLogStream",methodName="error")
+    public static class ErrorLog {
+        @Patch.OnEnter public static void enter(@Patch.Argument(0) Object format,@Patch.Argument(1) Object[] params){CoreRecorder c=CoreRecorder.current();if(c!=null&&c.enabled("ErrorRecorder"))try{c.errors.logRequest(format,params);}catch(Throwable t){failure("ErrorRecorder",t);}}
+    }
     @Patch(className="zombie.core.textures.Texture",methodName="getSharedTextureInternal")
     public static class TextureLookup {
         @Patch.OnEnter public static void enter(@Patch.Local("bbTextureStart") long start){start=System.nanoTime();}

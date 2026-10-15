@@ -9,10 +9,10 @@ Scope: local B42.21.0, bundled Zulu 25.0.1, installed ZombieBuddy 2.3.4. All nam
 | Lua event context | zombie.Lua.Event.trigger(KahluaTable,LuaCaller,Object[]) and public name | PROTOTYPED; scoped ThreadLocal event context, no callback replacement |
 | Lua closure source | LuaClosure.prototype.filename/file/name/lines | PROTOTYPED; inspect same source as ZBLuaPerfMon, cache bounded identities |
 | Java sampling / GC / contention | bundled jdk.jfr present; Recording and RecordingFile | PROTOTYPED; no global flags, bounded low-rate recording |
-| Error reporting | DebugLogStream.printException(... Throwable first ...) plus bounded capture of failed Lua protected calls | PROTOTYPED; nested overloads must count once; no global PrintStream replacement |
+| Error reporting | DebugLogStream.printException(... Throwable first ...), error(Object,Object...), plus bounded capture of failed Lua protected calls | PROTOTYPED; error-log requests are distinct from exceptions and do not prove a line was printed; no global PrintStream replacement |
 | Loaded zombies | IsoWorld.instance.currentCell.getZombieList and per-zombie update timing | PROTOTYPED; periodic game-thread counts and bounded traversal, not total world population |
 | Chunk reading/preparation | WorldStreamer.DoChunkAlways(IsoChunk,ByteBuffer); IsoChunk.LoadChunk(int,int,ByteBuffer), loadInWorldStreamerThread(), doLoadGridsquare() | PROTOTYPED; request counts not unique chunks, stages can nest |
-| Asset lifecycle | AssetManager.load(AssetPath[,params]), onLoadingSucceeded/onLoadingFailed | PROTOTYPED; request overhead is not async completion latency; texture lookups are not GPU uploads |
+| Asset lifecycle | AssetManager.startLoading(Asset), onLoadingSucceeded/onLoadingFailed | PROTOTYPED; overridden startLoading may bypass observation; texture lookups are not GPU uploads |
 | Texture lookup | Texture.getSharedTextureInternal(String,int) | PROTOTYPED; no reliable cache distinction until verified |
 | Registry | ZomboidFileSystem.instance.getModIDs/getModDir/getModInfoForDir; public ZombieBuddy.getActiveJavaMods | PROTOTYPED; exact loaded jarPath separate from installed metadata; bounded alternate-copy scan in discovered libraries |
 | Context | game-thread player/vehicle role; GameClient.client/GameServer.server; CoopMaster.isRunning | PROTOTYPED; camera mode UNKNOWN without mod integration |
@@ -46,7 +46,7 @@ Scope: local B42.21.0, bundled Zulu 25.0.1, installed ZombieBuddy 2.3.4. All nam
 
 Cursor CLI with required `cursor-grok-4.6-xhigh` exited before implementation because its usage allowance was exhausted. The owner explicitly authorized Codex implementation plus independent agent review; the exception is recorded in AGENTS.md. No game verification is claimed.
 
-The implemented passive hooks passed actual ZombieBuddy 2.3.4 annotation translation and offline Byte Buddy transformation of **19 patches / 33 method overloads** in the installed game. Synthetic execution through the actual PatchEngine preserves the target's return value and exception. This verifies instrumentation mechanics, not all real-world game behavior.
+The implemented passive hooks passed actual ZombieBuddy 2.3.4 annotation translation and offline Byte Buddy transformation of **20 patches / 34 method overloads** in the installed game. Synthetic execution through the actual PatchEngine preserves the target's return value and exception. This verifies instrumentation mechanics, not all real-world game behavior.
 
 Core JSONL/rotation/queues, programmatic JFR, bounded trigger windows, metadata serialization, privacy fixtures and ZIP have **VERIFIED isolated test coverage**. Game-specific Frame/Lua/World/Streaming/Asset/Context/Registry collectors remain **PROTOTYPED**. GPU time, VRAM, RSS, universal camera mode, direct NPC timing and exact chunk queues are **UNSUPPORTED**. Host server instrumentation is **BLOCKED when no agent is actually present in that JVM**.
 

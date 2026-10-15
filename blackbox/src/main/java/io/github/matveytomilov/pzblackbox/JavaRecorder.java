@@ -41,9 +41,10 @@ public final class JavaRecorder implements AutoCloseable {
     }
     public synchronized Path dump()throws Exception{if(recording==null)return null;Path out=core.session.resolve("jfr/recording.jfr");recording.dump(out);return out;}
     /** Export only typed facts and method names; raw JFR strings/paths are never copied. */
-    public void safeProfile(OutputStream out)throws Exception{
+    public Map<String,Object> safeProfile(OutputStream out)throws Exception{return safeProfile(out,20000,4L<<20);}
+    Map<String,Object> safeProfile(OutputStream out,int maxEvents,long maxBytes)throws Exception{
         Path file; synchronized(this){file=recording==null?core.session.resolve("jfr/recording.jfr"):dump();}
-        if(file==null||!Files.isRegularFile(file,LinkOption.NOFOLLOW_LINKS))return;
+        if(file==null||!Files.isRegularFile(file,LinkOption.NOFOLLOW_LINKS))return Json.map("schema_version",1,"available",false,"reason","JFR disabled, unavailable, or recording not yet dumped","exported_events",0,"truncated",false,"max_events",maxEvents,"max_bytes",maxBytes);
         Set<String> allowed=Set.of("jdk.ExecutionSample","jdk.CPULoad","jdk.GarbageCollection","jdk.GCPhasePause","jdk.GCHeapSummary","jdk.JavaMonitorEnter","jdk.ThreadPark","jdk.FileRead","jdk.FileWrite","jdk.ObjectAllocationSample","pzblackbox.LongFrame");
         long count=0,bytes=0;boolean truncated=false;
         try(RecordingFile r=new RecordingFile(file)){
@@ -56,10 +57,10 @@ public final class JavaRecorder implements AutoCloseable {
                 data.put("jfr_native_timestamp_utc",event.getStartTime().toString());
                 Map<String,Object> row=Json.map("schema_version",1,"session_id",core.sessionId,"process_id",ProcessHandle.current().pid(),"process_role",core.role,"timestamp_utc",event.hasField("monotonicNs")?core.utcAt(event.getLong("monotonicNs")).toString():event.getStartTime().toString(),"monotonic_ns",event.hasField("monotonicNs")?event.getLong("monotonicNs"):null,"event_type",type,"measurement_source","JFR typed safe projection","measurement_status","PROTOTYPED","thread_id",t==null?null:t.getJavaThreadId(),"frame_id",event.hasField("frameId")?event.getLong("frameId"):null,"data",data);
                 byte[] line=(Json.encode(row)+"\n").getBytes(java.nio.charset.StandardCharsets.UTF_8);
-                if(count>=20000||bytes+line.length>(4L<<20)){truncated=true;break;}out.write(line);bytes+=line.length;count++;
+                if(count>=maxEvents||bytes+line.length>maxBytes){truncated=true;break;}out.write(line);bytes+=line.length;count++;
             }
         }
-        core.emit("recorder-health","jfr_projection","JFR RecordingFile",Json.map("exported_events",count,"truncated",truncated,"max_events",20000,"max_bytes",4L<<20));
+        return Json.map("schema_version",1,"available",true,"exported_events",count,"exported_bytes",bytes,"truncated",truncated,"max_events",maxEvents,"max_bytes",maxBytes,"privacy","Numeric fields and method names only; raw binary excluded");
     }
     public synchronized void close(){if(recording!=null){try{recording.stop();dump();}catch(Exception e){core.writer.ioErrors.increment();}finally{recording.close();recording=null;}}}
 }
